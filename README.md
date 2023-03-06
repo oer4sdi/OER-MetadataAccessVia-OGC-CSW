@@ -1,1 +1,1 @@
-# OER-MetadataAccessVia_OGC_CSW
+# OER-MetadataAccessVia-OGC-CSW
