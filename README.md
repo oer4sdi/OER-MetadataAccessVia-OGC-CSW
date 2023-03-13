@@ -7,10 +7,10 @@ This Repository is an Open Educational Resource on the topic of how to access me
 * How to access OGC CSW in QGIS and Python?
 
 ## Content structure
-__Chapter 1:__ Overview
-__Chapter 2:__ Metadata
-__Chapter 3:__ Metadata Catalog Services
-__Chapter 4:__ Practical Excercise: Accessing CSW
+__Chapter 1:__ Overview  
+__Chapter 2:__ Metadata  
+__Chapter 3:__ Metadata Catalog Services  
+__Chapter 4:__ Practical Excercise: Accessing CSW  
 
 ## How to use
 
