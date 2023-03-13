@@ -5,7 +5,7 @@
 
   ### 2.2 Why INSPIRE?
 
-## Chapter 3: Reading Metadata
+## Chapter 3: Metadata Catalog Services
   ### 3.1 How to organize Metadata in a Catalog Service
 
   ### 3.2 OGC CSW
