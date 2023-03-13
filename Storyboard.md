@@ -9,10 +9,10 @@ This tutorial will give you some background on how to access INSPIRE Metadata vi
 * How to access OGC CSW in QGIS and Python?
 
 It is structured as follows:  
-Chapter 1: About this Module  
-Chapter 2: Metadata  
-Chapter 3: Metadata Catalog Services  
-Chapter 4: Practical Excercise on Accessing OGC CSW
+  Chapter 1: About this Module  
+  Chapter 2: Metadata  
+  Chapter 3: Metadata Catalog Services  
+  Chapter 4: Practical Excercise on Accessing OGC CSW
 
 ## Chapter 2: Metadata
   ### 2.1 Metadata for spatial data
