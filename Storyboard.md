@@ -1,6 +1,6 @@
 # OER Module: Metadata Access via OGC CSW
 ## Chapter 1: About this Module
-## Chapter 2: About Metadata
+## Chapter 2: Metadata
   ### 2.1 Metadata for spatial data
 
   ### 2.2 Why INSPIRE?
