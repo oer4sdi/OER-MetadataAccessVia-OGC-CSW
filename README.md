@@ -19,3 +19,6 @@ __Chapter 4:__ Practical Excercise: Accessing CSW
 ## License
 
 ## Authors and funding
+This OER Module has been developed at the Institute for Geoinformatics, University of Münster. 
+
+The OER4SDI project has been recommended by the Digital University NRW and is funded by the Ministry of Culture and Science NRW.
