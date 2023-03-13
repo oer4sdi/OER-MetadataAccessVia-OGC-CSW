@@ -15,6 +15,7 @@ It is structured as follows:
   Chapter 4: Practical Excercise on Accessing OGC CSW
 
 ## Chapter 2: Metadata
+5min
   ### 2.1 Metadata for spatial data
   * Why Metadata for spatial data
   ### 2.2 Why INSPIRE?
@@ -22,6 +23,7 @@ It is structured as follows:
   * Why INSPIRE Metadata
 
 ## Chapter 3: Metadata Catalog Services
+max. 10min
   ### 3.1 How to organize Metadata in a Catalog Service
   * whats needed to create an INSPIRE Metadataset
   ### 3.2 OGC CSW
@@ -29,6 +31,7 @@ It is structured as follows:
   * CSW methods and structures
   
 ## Chapter 4: Practical Excercise on Accessing OGC CSW
+min. 15min
   ### 4.1 Accesing via Catalog Service from Webportals
   * structure of CSW methods
   ### 4.2 Reading XML-Metadata
