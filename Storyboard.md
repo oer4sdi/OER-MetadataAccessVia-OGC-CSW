@@ -23,7 +23,7 @@ It is structured as follows:
 
 ## Chapter 3: Metadata Catalog Services
   ### 3.1 How to organize Metadata in a Catalog Service
-  * whats needed for INSPIRE Metadataset
+  * whats needed to create an INSPIRE Metadataset
   ### 3.2 OGC CSW
   * what is a CSW
   * CSW methods and structures
