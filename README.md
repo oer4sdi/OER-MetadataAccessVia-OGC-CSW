@@ -1,16 +1,16 @@
 # OER-MetadataAccessVia-OGC-CSW (Work in Progress)
 This Repository is an Open Educational Resource on the topic of how to access metadata via Catalog Services (OGC CSW). It is designed to understand the following questions:
-* What's INSPIRE? Why use INSPIRE metadata?
+* Why use INSPIRE metadata?
 * How to read XML-Metadata?
-* What's a OGC CSW? How to organize Metadata in a Catalog Service?
+* What's OGC CSW? How to organize Metadata in a Catalog Service?
 * How to access INSPIRE Metadata via classic OGC CSW?
 * How to access OGC CSW in QGIS and Python?
 
 ## Content structure
 __Chapter 1:__ About this module  
-__Chapter 2:__ Metadata  
-__Chapter 3:__ Metadata Catalog Services  
-__Chapter 4:__ Practical Excercise: Accessing CSW  
+__Chapter 2:__ What is OGC CSW  
+__Chapter 3:__ Searching for Catalog Services on Web  
+__Chapter 4:__ Accessing OGC CSW on QGIS and Python  
 
 ## How to use
 * The OER Module is available in the Storyboard and will be as an h5p module that can be viewed using LUMI, H5P online editor, Wordpress H5P extension.
