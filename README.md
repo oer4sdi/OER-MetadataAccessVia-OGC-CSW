@@ -13,7 +13,7 @@ __Chapter 3:__ Metadata Catalog Services
 __Chapter 4:__ Practical Excercise: Accessing CSW  
 
 ## How to use
-* The OER Module will be available as h5p module that can be viewed using LUMI, H5P online editor, Wordpress H5P extension.
+* The OER Module is available in the Storyboard and will be as an h5p module that can be viewed using LUMI, H5P online editor, Wordpress H5P extension.
 * A Storyboard is also available to view this OER module.  
 
 ## License
