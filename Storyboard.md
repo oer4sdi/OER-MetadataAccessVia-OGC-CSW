@@ -26,7 +26,7 @@ __min. 10min__
   * look into XML Response
     * understand the key features
   * Metadataprovider: Why it's good to look for INSPIRE
-  * what are more readable ways for the user (in HTML)
+  * what are more readable ways for the user (HTML)
 ## Chapter 4: Accessing OGC CSW on QGIS and Python  
 __around 15min__
   ### QGIS  
