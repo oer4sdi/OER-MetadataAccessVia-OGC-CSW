@@ -10,7 +10,7 @@ After using this tutorial, you will be able to answer the following questions:
 *	What is the role of OGC catalog services (CSW) in this context?
 *	How can I access OGC catalog services with QGIS?
 *	How to write Python code that interacts with OGC Catalog services (CSW)?
-*	What are the current trends in SDI development that will change the way we’re working with metadata?
+*	What other approaches are being used to support the discoverability of datasets and services?
 
 The tutorial is structured as follows: 
 1. Overview
@@ -44,7 +44,7 @@ The OER4SDI project has been recommended by the Digital University NRW and is fu
 
 ## 3.1 The role of Metadata in SDIs
 
-[general overview on the role of metadata in SDIs -> architecture of a distributed System; resopurces & metadata; publish find bind; comparing search engines and catalogs; ..]
+[general overview on the role of metadata in SDIs -> architecture of a distributed System; resources & metadata; publish find bind; comparing search engines and catalogs; ..]
 
 ## 3.2 ISO metadata standards and how are they used in the context of INSPIRE
 
