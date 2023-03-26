@@ -60,7 +60,7 @@ The OER4SDI project has been recommended by the Digital University NRW and is fu
 [overview on the technical setup as needed for the practical exercises; guidance on doanloading and installing the software -> QGIS, Jupyter, Pythoin Notebook(s)]
 
 
-## 4.2 Accessing metadata via a geoportal 
+## 4.2 Accessing metadata via geoportals 
 
 [introduction: what are we trying to showcase in this practical example; <br>
 taking up the use case; use a geoportal to search for and find data on protected sites; use the HTML user interface of the geoportal to view the metadata in a nice layout; view the metadata set in plain XML (-> refers to what we've learned in section 3.2); provide some help to read the content of the XML file (nasty, but doable; as for the meaning of the attributes point to the name spaces and sources of documentation);clarify that XML ist to a certain extent human readable (less than HTML), but the main purpose is to encode data for machine-to-machine communication (-> QGIS, Python; other catalogs; clarify the role of a catalog service in the ocntext of the portal (-> dedicated meta-database queries; supporting the federation of catalogs); discussing some findings: todays portals have just some basic metadata retrieval functionality, the capabilities of the existing search engines go far beyond ]
