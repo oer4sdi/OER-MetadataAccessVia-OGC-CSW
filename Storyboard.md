@@ -90,3 +90,4 @@ introducing QGIS Metasearch; accessing the CSW of the portal that we used for do
 ***[Open issues:***
 * ***how can we make sure that the on-line catalogs we're using will be up-and-running; we dont want to run into dead links; what does it take to set up our own metadata server - e.g. via GeoNetwork, PyCSW or GeoServer? Can we find and re-use a small existing metadata set?***
 * ***Format of the presentations: text+screenshots or video]***
+* ***how to support active Learning: which tasks could be given? -> these could be defined in the Python notebook***
