@@ -20,6 +20,7 @@ The tutorial is structured as follows:
     *	ISO metadata standards and how are they used in the context of INSPIRE
     *	OGC catalog services (CSW)
 4.	Practical examples for accessing and using ISO metadata
+    * Downloading and installing the software for the hands-on exercises
     * Accessing metadata via a geoportal 
     *	Accessing metadata via QGIS Metasearch
     *	Accessing metadata via Python from a Jupyter Notebook
@@ -56,8 +57,7 @@ The OER4SDI project has been recommended by the Digital University NRW and is fu
 
 # 4.	Practical examples for accessing and using ISO metadata
 
-## 4.1 Downloading and installing the software for the hands-on part of the tutorial
-
+## 4.1 Downloading and installing the software for the hands-on exercises
 [overview on the technical setup as needed for the practical exercises; guidance on doanloading and installing the software -> QGIS, Jupyter, Pythoin Notebook(s)]
 
 
@@ -79,15 +79,12 @@ introducing QGIS Metasearch; accessing the CSW of the portal that we used for do
 - all metadata that has been updated since ##.##.#### ; using a paging mechanism; show a list of metadatasets with ids, title and last_update timestamp); <br>
 
 
-## 4.5 Cleaning up the software environment
-
-[provide information on how to deinstall the software and the data; ..]
-
-
 # 5.	Summary and Notes on Related Topics
 
 [acknowledge the user's engagement; summarize the activties; provide an overview on other approaches and technologies that are used for organizing metadata in SDIs, particularly a) RDF/DCAT (without going into the very details) b) enabling search engines to gather data on existing respources]
 
+
+[Clean Uo: provide information on how to deinstall the software and the data; ..]
 
 
 
