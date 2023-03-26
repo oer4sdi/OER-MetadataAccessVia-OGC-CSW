@@ -1,5 +1,11 @@
-# OER Module: Metadata Access via OGC CSW
-## Chapter 1: About this Module
+# Using ISO Metadata and OGC Catalog Services to find data on Protected Sites in Lower Saxony
+
+## 1. Overview
+
+This learning material is a technical tutorial on how to access and use metadata in an SDI to find data on Protected Sites that is needed for windfarm planning.
+
+
+
 This tutorial will give you some background on how to access INSPIRE Metadata via OGC Catalog Services. Once you have completed this tutorial, you will be able to answer the following questions:
 
 * Why use INSPIRE metadata?
