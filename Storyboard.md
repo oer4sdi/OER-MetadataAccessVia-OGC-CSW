@@ -1,18 +1,16 @@
-# Using ISO Metadata and OGC Catalog Services to find data on Protected Sites in Lower Saxony
+# Using ISO Metadata and OGC Catalog Services to find data on Protected Sites in Germany
 
 ## 1. Overview
 
-This learning material is a technical tutorial on how to access and use metadata in an SDI to find data on Protected Sites that is needed for windfarm planning.
+This learning material is a technical tutorial on how to access and use metadata in an SDI to find data on Protected Sites that is needed for windfarm planning in Germany.
 
+After using this tutorial, you will be able to understand, 
+* how metadata supports the discoverability of datasets and services in an SDI, 
+* the role of the ISO and INSPIRE metadata standards, 
+* the role of OGC catalog services (CSW) in an SDI,
+* how to access OGC Catalog services (CSW) and INSPIRE compliant metadata with QIS and Python Notebooks, and
+* current trends in SDI development that will change the way we’re working with metadata.
 
-
-This tutorial will give you some background on how to access INSPIRE Metadata via OGC Catalog Services. Once you have completed this tutorial, you will be able to answer the following questions:
-
-* Why use INSPIRE metadata?
-* How to read XML-Metadata?
-* What's OGC CSW? How to organize Metadata in a Catalog Service?
-* How to access INSPIRE Metadata via classic OGC CSW?
-* How to access OGC CSW in QGIS and Python?
 
 It is structured as follows:  
 __Chapter 1:__ About this module  
