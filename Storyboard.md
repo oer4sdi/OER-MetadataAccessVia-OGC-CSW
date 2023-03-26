@@ -63,7 +63,7 @@ The OER4SDI project has been recommended by the Digital University NRW and is fu
 
 ## 4.2 Accessing metadata via a geoportal 
 
-[introduction: what is the context and what are we trying to showcase in this practical example; <br>
+[introduction: what are we trying to showcase in this practical example; <br>
 taking up the use case; use a geoportal to search for and find data on protected sites; use the HTML user interface of the geoportal to view the metadata in a nice layout; view the metadata set in plain XML (-> refers to what we've learned in section 3.2); provide some help to read the content of the XML file (nasty, but doable; as for the meaning of the attributes point to the name spaces and sources of documentation);clarify that XML ist to a certain extent human readable (less than HTML), but the main purpose is to encode data for machine-to-machine communication (-> QGIS, Python; other catalogs; clarify the role of a catalog service in the ocntext of the portal (-> dedicated meta-database queries; supporting the federation of catalogs); discussing some findings: todays portals have just some basic metadata retrieval functionality, the capabilities of the existing search engines go far beyond ]
 
 ## 4.3 Accessing metadata via QGIS Metasearch
@@ -74,36 +74,23 @@ introducing QGIS Metasearch; accessing the CSW of the portal that we used for do
 
 ## 4.4 Accessing metadata via Python from a Jupyter Notebook
 
-[introduction: what is the context and what are we trying to showcase in this practical example(-> direct machine-to-machine interaction with a CSW); <br>
+[introduction: what are we trying to showcase in this practical example; -> low level client-server interaction; how to form requests (e.g.:<br>
+- searching for the dataset on protected sites; display the dataset; <br>
+- all metadata that has been updated since ##.##.#### ; using a paging mechanism; show a list of metadatasets with ids, title and last_update timestamp); <br>
 
-## 4.5 Cleaning the software environment
+
+## 4.5 Cleaning up the software environment
+
+[provide information on how to deinstall the software and the data; ..]
 
 
 # 5.	Summary and Notes on Related Topics
 
+[acknowledge the user's engagement; summarize the activties; provide an overview on other approaches and technologies that are used for organizing metadata in SDIs, particularly a) RDF/DCAT (without going into the very details) b) enabling search engines to gather data on existing respources]
 
 
 
-  
-## Chapter 2: What is OGC CSW
-__max. 5min__
-  * what is OGC CSW
-  * CSW methods and structures
-## Chapter 3: Searching for Catalog Services on Web
-__min. 10min__
-  * Searching for example CSW with INSPIRE dataset in area of lower saxony on protected sites
-    * GetCapabilities 
-    * GetRecords
-  * look into XML Response
-    * understand the key features
-  * Metadataprovider: Why it's good to look for INSPIRE
-  * what are more readable ways for the user (HTML)
-## Chapter 4: Accessing OGC CSW on QGIS and Python  
-__around 15min__
-  ### QGIS  
-  * QGIS MetaSearch  
-    * Open example CSW in QGIS 
-    * Search with QGIS MetaSearch  
-    * Open dataset in QGIS  
-  ### Python
-  * Jupyter Notebook 
+
+*[Some open issues:
+* how can we make sure that the catalogs we're using will be up-and-running; we dont want to run into dead links
+* ..
