@@ -83,10 +83,10 @@ introducing QGIS Metasearch; accessing the CSW of the portal that we used for do
 [acknowledge the user's engagement; summarize the activties; provide an overview on other approaches and technologies that are used for organizing metadata in SDIs, particularly a) RDF/DCAT (without going into the very details) b) enabling search engines to gather data on existing respources]
 
 
-[Clean Uo: provide information on how to deinstall the software and the data; ..]
+[Clean Up: provide information on how to de-install the software and the data; ..]
 
 
 
-***[Some open issues:***
+***[Open issues:***
 * ***how can we make sure that the on-line catalogs we're using will be up-and-running; we dont want to run into dead links; what does it take to set up our own metadata server - e.g. via GeoNetwork, PyCSW or GeoServer? can we re-use a small metadata set?***
 * ***how can we showcase the validation of XML encoded metadata?]***
