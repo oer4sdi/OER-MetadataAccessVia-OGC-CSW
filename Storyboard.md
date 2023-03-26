@@ -20,7 +20,7 @@ The tutorial is structured as follows:
     *	OGC catalog services (CSW)
 4.	Practical examples for accessing and using ISO metadata
     * Downloading and installing the software for the hands-on exercises
-    * Accessing metadata via a geoportal 
+    * Accessing metadata via geoportals
     *	Accessing metadata via QGIS Metasearch
     *	Accessing metadata via Python from a Jupyter Notebook
 5.	Summary and Notes on Related Topics
