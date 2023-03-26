@@ -5,11 +5,10 @@
 This learning material is a technical tutorial on how to access and use metadata in an SDI to find data on Protected Sites that is needed for windfarm planning in Germany.
 
 After using this tutorial, you will be able to answer the following questions: 
-*	How are metadata used to support the discoverability of datasets and services in an SDI? 
-*	What is the role of the ISO and INSPIRE metadata standards in this context? 
-*	What is the role of OGC catalog services (CSW) in this context?
-*	How can I access OGC catalog services with QGIS?
-*	How to write Python code that interacts with OGC Catalog services (CSW)?
+*	How can we use metadata for discovering datasets and services in an SDI? 
+*	What is the role of the ISO and INSPIRE metadata standards? 
+*	What is the role of OGC catalog services (CSW)?
+*	How can I access OGC catalog services with QGIS and/or Python Code?
 *	What other approaches are being used to support the discoverability of datasets and services?
 
 The tutorial is structured as follows: 
