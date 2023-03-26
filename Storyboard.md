@@ -89,4 +89,4 @@ introducing QGIS Metasearch; accessing the CSW of the portal that we used for do
 
 ***[Open issues:***
 * ***how can we make sure that the on-line catalogs we're using will be up-and-running; we dont want to run into dead links; what does it take to set up our own metadata server - e.g. via GeoNetwork, PyCSW or GeoServer? can we re-use a small metadata set?***
-* ***how can we showcase the validation of XML encoded metadata?]***
+* ***Format of the presentations: text+screenshots or video]***
