@@ -27,6 +27,16 @@ The tutorial is structured as follows:
 
 The tutorial takes about 30 Minutes for reading and viewing the provided materials, downloading the software and for conducting the hands-on exercises and tasks.  
 
+This OER is primarily designed to be used by students in Geoinformatics, Geomatics and similar study programs. It is also useful for students of other study programs and for practitioners who want to enhance their understanding of SDI concepts and technologies. 
+Some basic knowledge of web technologies such as HTTP and Web Services is required. However, you will be able to follow and find links to further resources if needed. 
+Your computer should have #.# GB of usable RAM and #.# MB of usable disk space to download and use the software for this tutorial.
+
+This Tutorial has been developed at the Institute for Geoinformatics, University of Münster. Authors are Tobias Krumrein and Albert Remke.
+
+You are free to use, alter and reproduce the tutorial (H5P content, Storyboard) under the terms of the CC-BY-SA 4.0 license. Any code provided with the tutorial can be used under the terms of the MIT license. Please see the full license terms (tbd).
+
+The OER4SDI project has been recommended by the Digital University NRW and is funded by the Ministry of Culture and Science NRW.
+
   
 ## Chapter 2: What is OGC CSW
 __max. 5min__
