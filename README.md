@@ -8,9 +8,9 @@ This Repository is an Open Educational Resource on the topic of how to access me
 
 ## Content structure
 __Chapter 1:__ About this module  
-__Chapter 2:__ What is OGC CSW  
-__Chapter 3:__ Searching for Catalog Services on Web  
-__Chapter 4:__ Accessing OGC CSW on QGIS and Python  
+__Chapter 2:__ OGC CSW  
+__Chapter 3:__ Other ways to access CSW Metadata  
+__Chapter 4:__ Wrap Up  
 
 ## How to use
 * The OER Module is available in the Storyboard and will be as an h5p module that can be viewed using LUMI, H5P online editor, Wordpress H5P extension.
