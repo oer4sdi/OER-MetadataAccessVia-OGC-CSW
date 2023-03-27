@@ -34,10 +34,12 @@ __Screenshot__
 It says that we’re missing a parameter named typeNames. Let’s look into our GetCapabilities request again and search for typeNames in GetRecords Operation.   
 __Screenshot__   
 We need to set a value for typeNames, let’s try the first one csw:Record. Add it to our GetRecords Request.   
+__Screenshot__   
 
+* go more into detail about SDIs   
 * Filter by attributes on bbox and theme  
 * Look at found Dataset 
-  * Show INSPIRE ISO Standard
+  * Show INSPIRE and ISO Standard
     * Discuss why so important
 * Refer to geodatenkatlog.de  
   * Better readable because CSW in HTML  
