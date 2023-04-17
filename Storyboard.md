@@ -70,7 +70,7 @@ If you already have QGIS 2.0 or higher installed you can skip this part and go d
 For downloading QGIS please follow the next steps:
 1. Go to the QGIS Website https://www.qgis.org/en/site/forusers/download.html  
 2. Choose your operating system from the options that are listed  
-3. Than downlaod QGIS (this step may take some time, in this time we can already continue with the part(s) and come back later for the last to steps)  
+3. Than downlaod QGIS (this step may take some time, in this time we can already continue with the next part(s) and come back later for the last to steps)  
 4. After downloading run the installer and follow the prompts to install QGIS on your computer
 
 ## 4.2 Accessing metadata via geoportals 
