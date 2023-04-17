@@ -1,5 +1,6 @@
 # OER Module: Metadata Access via OGC CSW  
 ## 1. Overview
+
 This learning material is a technical tutorial on how to access and use metadata in an SDI to find data on Protected Sites that is needed for windfarm planning in Germany.
 After using this tutorial, you will be able to answer the following questions:
 * How can we use metadata for discovering datasets and services in an SDI?
@@ -18,8 +19,8 @@ The tutorial is structured as follows:
 4. Practical examples for accessing and using ISO metadata  
   4.1 Downloading and installing the software for the hands-on exercises
   4.2 Accessing metadata via geoportals  
-  4.3 Accessing metadata via QGIS Metasearch  
-  4.4 Accessing metadata via Python from a Jupyter Notebook  
+  4.3 Accessing metadata via Python from a Jupyter Notebook  
+  4.4 Accessing metadata via QGIS Metasearch  
 5. Summary and Notes on Related Topics  
 
 The tutorial takes about 30 Minutes for reading and viewing the provided materials, downloading the software and for conducting the hands-on exercises and tasks.
@@ -32,6 +33,7 @@ You are free to use, alter and reproduce the tutorial (H5P content, Storyboard) 
 The OER4SDI project has been recommended by the Digital University NRW and is funded by the Ministry of Culture and Science NRW.
 
 # 2. Use case: Finding data on protected sites in the context of windfarm planning  
+
 A local authority in Lower Saxony has hired you to cooperate with a private investor to identify several potential sites in the state for enlarging and repowering existing wind farms with high-efficiency wind turbines. The selected site must meet several characteristics:  
 * Located in the state of Lower Saxony  
 * Within 4 km of existing wind farms containing turbines  
@@ -61,18 +63,29 @@ The Open Geospatial Consortium (OGC) Catalog Services (CSW) is a standard that p
 
 # 4.	Practical examples for accessing and using ISO metadata
 
-## 4.1 Downloading and installing the software for the hands-on exercises
+Now you're getting some practical examples for accessing Catalogue Services through different approaches. But before you can start with them, you need to install QGIS [and also will need to download the Jupyter Notebooks]. 
 
+## 4.1 Downloading and installing the software for the hands-on exercises
+If you already have QGIS 2.0 or higher installed you can skip this part and go directly to the next part, beacause the plugin MetaSearch, which you're using later, is included by default.  
+For downloading QGIS please follow the next steps:
+1. Go to the QGIS Website https://www.qgis.org/en/site/forusers/download.html  
+2. Choose your operating system from the options that are listed  
+3. Than downlaod QGIS (this step may take some time, in this time we can already continue with the part(s) and come back later for the last to steps)  
+4. After downloading run the installer and follow the prompts to install QGIS on your computer
 
 ## 4.2 Accessing metadata via geoportals 
 
 
 
-## 4.3 Accessing metadata via QGIS Metasearch
+## 4.3 Accessing metadata via Python from a Jupyter Notebook
 
 
 
-## 4.4 Accessing metadata via Python from a Jupyter Notebook
+## 4.4 Accessing metadata via QGIS MetaSearch
+The last example approach for accessing metadata through catalogue services, is through QGIS MetaSearch. Now you're downlaod should be complete and you can start with the last steps:
+* run the installer and follow the prompts to install QGIS on your computer
+  
+Now you're ready to go.
 
 
 
