@@ -1,58 +1,80 @@
 # OER Module: Metadata Access via OGC CSW  
-## Chapter 1: About this Module  
-If you're working with spatial data and were recently looking online for an specific dataset you're probably were stumbling over the term OGC CSW or something like this:  
-__Screenshot__  
-That looks very deterrent at first sight. But if you look a little more closely into OGC CSW, a lot of things will become more clear and you see that this huge xml text makes a lot of sense. This OER module should help you to understand how to work with OGC Catalogue Services. It will give you some background on how to access INSPIRE Metadata via OGC Catalogue Services. And once you have completed this tutorial, you will be able to answer the following questions:  
-* Why use INSPIRE metadata?  
-* How to read XML-Metadata?  
-* What's OGC CSW? How to organise Metadata in a Catalog Service?  
-* How to access INSPIRE Metadata via classic OGC CSW?  
-* How to access OGC CSW in QGIS and Python?  
+## 1. Overview
+This learning material is a technical tutorial on how to access and use metadata in an SDI to find data on Protected Sites that is needed for windfarm planning in Germany.
+After using this tutorial, you will be able to answer the following questions:
+* How can we use metadata for discovering datasets and services in an SDI?
+* What is the role of the ISO and INSPIRE metadata standards?
+* What is the role of OGC catalog services (CSW)?
+* How can I access OGC catalog services with QGIS and/or Python Code?
+* What other approaches are being used to support the discoverability of datasets and services?  
 
-So let’s start with the module it is structured as follows:  
-__Chapter 1:__ About this module  
-__Chapter 2:__ OGC CSW  
-__Chapter 3:__ Other ways to access CSW Metadata  
-__Chapter 4:__ Wrap Up
+The tutorial is structured as follows:  
+1. Overview  
+2. Use case: Finding data on protected sites in the context of windfarm planning
+3. Background  
+  3.1 The role of Metadata in SDIs  
+  3.2 ISO metadata standards and how are they used in the context of INSPIRE  
+  3.3 OGC catalog services (CSW)  
+4. Practical examples for accessing and using ISO metadata  
+  4.1 Downloading and installing the software for the hands-on exercises
+  4.2 Accessing metadata via geoportals  
+  4.3 Accessing metadata via QGIS Metasearch  
+  4.4 Accessing metadata via Python from a Jupyter Notebook  
+5. Summary and Notes on Related Topics  
 
-## Chapter 2: OGC CSW  
-Catalogue Service Web (CSW) from the Open Geospatial Consortium (OGC), is a standard for exposing catalogues of geospatial records on the Internet. These catalogues are online databases of many geospatial data, which can be filtered through Post-Requests with operations. But in these databases there is only the Metadata about the specific geodata and not the geodata itself. According to the standard the responses are the records in XML.  
-Many spatial data infrastructures (SDI) have a CSW where their metadata for all their geodata is stored and can be browsed through. Therefore CSW is a powerful tool to use when you're searching for geodata on the web. Germany's GDI-DE for example has a big CSW which can be accessed via https://gdk.gdi-de.org/gdi-de/srv/ger/csw?service=CSW&version=2.0.2&request=GetCapabilities.  
-Now let's take a closer look at this CSW. You can also open the link on the side in your browser but that's not needed. The parameters that a CSW request must include are:
-* The service which you want to use : service=CSW,  
-* The version of the CSW, which is version=2.0.2 in most of the services,  
-* You also need to specify which operation you want to use  
-All of them should be added with a ‘&’ into the URL. If you want to access a CSW your first request should be the GetCapabilities-request. There you can see the Metadata about the service, like the ServiceIdentification, the ServiceProvider and the very important OperationsMetadata and Filter_Capabilities. 
-__Screenshot__   
-At OperationsMetadata you get information about all the operations you can use within the CSW.
-__Screenshot__   
-If you want to search for geodata you should look for the GetRecords Operation. Now we just open a new tab and exchange request to GetRecords
-https://gdk.gdi-de.org/gdi-de/srv/ger/csw?service=CSW&version=2.0.2&request=GetRecords
+The tutorial takes about 30 Minutes for reading and viewing the provided materials, downloading the software and for conducting the hands-on exercises and tasks.
 
-Something went wrong we got an exception.   
-__Screenshot__   
-It says that we’re missing a parameter named typeNames. Let’s look into our GetCapabilities request again and search for typeNames in GetRecords Operation.   
-__Screenshot__   
-We need to set a value for typeNames, let’s try the first one csw:Record. Add it to our GetRecords Request.   
-__Screenshot__   
+This OER is primarily designed to be used by students in Geoinformatics, Geomatics and similar study programs. It is also useful for students of other study programs and for practitioners who want to enhance their understanding of SDI concepts and technologies. Some basic knowledge of web technologies such as HTTP and Web Services is required. However, you will be able to follow and find links to further resources if needed. Your computer should have #.# GB of usable RAM and #.# MB of usable disk space to download and use the software for this tutorial.
+This Tutorial has been developed at the Institute for Geoinformatics, University of Münster. Authors are Tobias Krumrein and Albert Remke.
 
-* go more into detail about SDIs   
-* Filter by attributes on bbox and theme  
-* Look at found Dataset 
-  * Show INSPIRE and ISO Standard
-    * Discuss why so important
-* Refer to geodatenkatlog.de  
-  * Better readable because CSW in HTML  
+You are free to use, alter and reproduce the tutorial (H5P content, Storyboard) under the terms of the CC-BY-SA 4.0 license. Any code provided with the tutorial can be used under the terms of the MIT license. Please see the full license terms (tbd).
 
-## Chapter 3: Other Ways to access CSW Metadata   
-* Open QGIS   
-  * Use Metasearch to access CSW   
-  * Filter CSW to get same dataset   
-* Use jupyter notebooks   
-  * Accessing CSW via request   
-  * Browse through it with request   
-* Pros/Cons of accessing CSW via QGIS and Python   
+The OER4SDI project has been recommended by the Digital University NRW and is funded by the Ministry of Culture and Science NRW.
 
-## Chapter 4: Wrap Up  
-* summarising the different accessing methods  
+# 2. Use case: Finding data on protected sites in the context of windfarm planning  
+A local authority in Lower Saxony has hired you to cooperate with a private investor to identify several potential sites in the state for enlarging and repowering existing wind farms with high-efficiency wind turbines. The selected site must meet several characteristics:  
+* Located in the state of Lower Saxony  
+* Within 4 km of existing wind farms containing turbines  
+* Within at least 800 m of neighbouring houses   
+* Does not intersect with any protected site   
+
+The spatial data analysis plays a really important role for windfarm planning, to locate viable areas for new planning zones. The datasets must be up-to-date to get the most accurate data. To meet these criteria, you need to explore and find the data for example for the topic protected sites. Now you’re searching for datasets on the web for the protected sites in lower saxony. But which one fits best for you? For such purposes SDIs have Catalog Services which are filled with Metadata describing their available datasets. You can access these Catalogue Services via geoportals, like geodatenkatalog.de, and search there for your wanted data. To find your data it’s necessary that the available datasets are described with quality metadata. By filtering through the metadata you can browse the geoportal to get the wanted dataset. To accurately describe data with metadata there are standards that have been developed like the ISO metadata standards.   
+After browsing through the geoportals and finding your wanted datasets you can then download it and load it into a QGIS project to visualise and analyse it. Now let's dive deeper into Metadata and Catalogue Services.
+
+# 3. Background
+
+## 3.1 The role of Metadata in SDIs
+
+Metadata plays a critical role in Spatial Data Infrastructures (SDIs), which are complex distributed systems designed to facilitate the discovery, access, and use of spatial data. Metadata provides essential information about spatial data resources, including their content, quality, and spatial extent, enabling users to find and evaluate data that meets their specific needs. Metadata is a crucial component of the Publish-Find-Bind model, which forms the basis of SDI architecture. In this model, metadata is published to a catalogue, which users can search to find data resources that match their criteria. Different search engines and catalogues may have different capabilities and search algorithms, which can impact the effectiveness and efficiency of data discovery. Therefore, it is important to consider the characteristics and capabilities of search engines and catalogues when designing and implementing SDIs. Overall, metadata is a critical element of SDI architecture, enabling efficient and effective data discovery, sharing, and use across distributed systems.
+
+## 3.2 ISO metadata standards and how are they used in the context of INSPIRE
+
+Standardising data models for metadata is essential to ensure that spatial data can be effectively shared and used across different systems and organisations. The International Organization for Standardization (ISO) has developed a series of metadata standards, including ISO 19115, which defines a conceptual data model for describing spatial data and associated metadata. This model provides a standardised framework for describing the content, quality, and spatial extent of spatial data, as well as information on ownership, access, and usage restrictions. To facilitate the implementation of ISO metadata standards, ISO has also developed encoding standards, such as ISO 19139, which provide a standardised syntax and structure for encoding metadata in different formats.   
+
+The European Union's INSPIRE Directive mandates the use of ISO metadata standards in the context of spatial data infrastructure development, implementation, and maintenance. INSPIRE requires Member States to establish national metadata catalogues that conform to ISO metadata standards and to provide interoperable access to spatial data resources. By standardising metadata, INSPIRE aims to promote the sharing and reuse of spatial data across Europe, thereby facilitating cross-border and cross-sector data interoperability.  
+
+In summary, ISO metadata standards play a crucial role in standardising the conceptual data model and encoding standards for metadata, facilitating data interoperability and data sharing. The INSPIRE Directive mandates the use of ISO metadata standards to promote the sharing and reuse of spatial data across Europe, contributing to the development of an efficient and effective European Spatial Data Infrastructure.  
+
+## 3.3 OGC catalog services (CSW)
+
+The Open Geospatial Consortium (OGC) Catalog Services (CSW) is a standard that provides a standardised interface for accessing metadata catalogues in spatial data infrastructures. The OGC develops and maintains standards for geospatial technologies to promote interoperability and facilitate the sharing and use of geospatial data across different systems and organisations. The CSW standard defines a set of operations for querying metadata catalogues, including search, retrieval, and management of metadata records. The CSW standard enables users to search for metadata using keywords, geographic extent, or other search criteria, and to retrieve metadata records in different formats, such as XML or JSON. The CSW standard has been implemented in a range of tools and instances, such as QGIS MetaSearch or ESRI Geoportal Server, which provide software solutions for managing and accessing metadata catalogues. Overall, the OGC CSW standard plays a critical role in enabling efficient and effective access to metadata catalogues in spatial data infrastructures, promoting data interoperability and facilitating the sharing and use of spatial data.   
+
+# 4.	Practical examples for accessing and using ISO metadata
+
+## 4.1 Downloading and installing the software for the hands-on exercises
+
+
+## 4.2 Accessing metadata via geoportals 
+
+
+
+## 4.3 Accessing metadata via QGIS Metasearch
+
+
+
+## 4.4 Accessing metadata via Python from a Jupyter Notebook
+
+
+
+# 5.	Summary and Notes on Related Topics
 
