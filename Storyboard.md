@@ -66,11 +66,11 @@ The Open Geospatial Consortium (OGC) Catalog Services (CSW) is a standard that p
 Now you're getting some practical examples for accessing Catalogue Services through different approaches. But before you can start with them, you need to install QGIS [and also will need to download the Jupyter Notebooks]. 
 
 ## 4.1 Downloading and installing the software for the hands-on exercises
-If you already have QGIS 2.0 or higher installed you can skip this part and go directly to the next part, beacause the plugin MetaSearch, which you're using later, is included by default.  
+If you already have QGIS 2.0 or higher installed you can skip this part and go directly to the next part, because the plugin MetaSearch, which you're using later, is included by default.  
 For downloading QGIS please follow the next steps:
 1. Go to the QGIS Website https://www.qgis.org/en/site/forusers/download.html  
 2. Choose your operating system from the options that are listed  
-3. Than downlaod QGIS (this step may take some time, in this time we can already continue with the next part(s) and come back later for the last to steps)  
+3. Than download QGIS (this step may take some time, in this time we can already continue with the next part(s) and come back later for the last to steps)  
 4. After downloading run the installer and follow the prompts to install QGIS on your computer
 
 ## 4.2 Accessing metadata via geoportals 
