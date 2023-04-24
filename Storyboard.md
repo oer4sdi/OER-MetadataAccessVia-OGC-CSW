@@ -1,4 +1,4 @@
-# OER Module: Metadata Access via OGC CSW  
+# OER Module: Using ISO Metadata and OGC Catalog Services to find data on Protected Sites in Germany
 ## 1. Overview
 
 This learning material is a technical tutorial on how to access and use metadata in an SDI to find data on Protected Sites that is needed for windfarm planning in Germany.
