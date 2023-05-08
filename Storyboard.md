@@ -63,18 +63,33 @@ The Open Geospatial Consortium (OGC) Catalog Services (CSW) is a standard that p
 
 # 4.	Practical examples for accessing and using ISO metadata
 
-Now you're getting some practical examples for accessing Catalogue Services through different approaches. But before you can start with them, you need to install QGIS [and also will need to download the Jupyter Notebooks]. 
+Now you're getting some practical examples for accessing Catalogue Services through different approaches. But before you can start with them, you need to install QGIS and Docker to work with Jupyter Notebooks. 
 
 ## 4.1 Downloading and installing the software for the hands-on exercises
+### 4.1.1 QGIS  
 If you already have QGIS 2.0 or higher installed you can skip this part and go directly to the next part, because the plugin MetaSearch, which you're using later, is included by default.  
 For downloading QGIS please follow the next steps:
 1. Go to the QGIS Website https://www.qgis.org/en/site/forusers/download.html  
 2. Choose your operating system from the options that are listed  
 3. Than download QGIS (this step may take some time, in this time we can already continue with the next part(s) and come back later for the last to steps)  
-4. After downloading run the installer and follow the prompts to install QGIS on your computer
+4. After downloading run the installer and follow the prompts to install QGIS on your computer  
+  
+### 4.1.2 Docker  
+The second software environment that we need is Docker. Therefore please follow the next steps.    
+1. Install Docker: Go to the official web site https://docs.docker.com/get-docker/ and follow the guidance which is provided there to install docker on your computer (8GB RAM recommended).  
+2. Download this Repository and unzip it in your wanted working directory   
+3. Make sure Docker is up and running  
+4. open a terminal and guide to your working directory  
+5. use "docker-compose up" to start up the docker containers  
+6. After building and the running is completed your output should look similar to that:  
+![DockerJupyterAccess](https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/tree/main/img/DockerJupyterAccess.png)   
 
-## 4.2 Accessing metadata via geoportals 
-Let’s start with accessing metadata with the most common approach. We will look at how to access metadata via geoportals. Specifically, we will take up the use case of searching for and finding data on protected sites using a geoportal. Geoportals are online platforms that provide access to spatial data and related services. They typically offer users a variety of search and discovery tools to help them find the data they need.    
+Now go to your browser and access the URL from your command output that starts with http://127.0.0.1:8888/?token=.  
+You will see the UI of the Jupyter Notebook server that is running and can access the notebook later there.     
+
+
+## 4.2 Accessing metadata via geoportals  
+But before we look into accessing metadata via notebooks, let’s start with accessing metadata with the most common approach. We will look at how to access metadata via geoportals. Specifically, we will take up the use case of searching for and finding data on protected sites using a geoportal. Geoportals are online platforms that provide access to spatial data and related services. They typically offer users a variety of search and discovery tools to help them find the data they need.    
 To begin, we will use a geoportal to search for data on protected sites in Lower Saxony. For our purposes, we will use the INSPIRE portal, which is one of the most comprehensive geoportals in Europe. After navigating to the portal's homepage (https://inspire-geoportal.ec.europa.eu/index.html), we will use the INSPIRE Thematic Viewer to find datasets related to protected sites. There we can browse through the datasets with two different options. In the first one the datasets are grouped by country and in the second one the datasets are grouped by INSPIRE data themes.    
 ![INSPIREPortalThematicViewer](https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/tree/main/img/INSPIREPortalThematicViewer.png)  
 <img src="[/path/to/img.jpg](https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/tree/main/img/INSPIREPortalThematicViewer.png)" alt="Alt text">  
@@ -95,8 +110,12 @@ After accessing and going through the metadata, we can download the dataset, if 
 But you could access the metadata from catalogue services also through other approaches. Another one would be via python, to make the xml metadata more readable.  
 
 ## 4.3 Accessing metadata via Python from a Jupyter Notebook
+Now you can go back to the Jupyter Notebook server, that you started earlier, in your browser again. Start the notebook Accessing_Metadata_with-jupyter.ipynb and work yourself through the notebook. It will show you another approach to accessing metadata. Therefore you will work with the python package OWSLib. It is developed for client programming with OGC web services like CSW, WMS or WFS.  
 
 
+When you have finished this exercise you can shut down and clean up your working environment.    
+Therefore you need to type "docker-compose down" in your terminal in which you build the docker image to shut down the docker container.   
+If you want to delete the image aswell type "docker image rm oer_jupyter".   
 
 ## 4.4 Accessing metadata via QGIS MetaSearch
 The last example approach for accessing metadata through catalogue services, is through QGIS MetaSearch. Now you're downlaod should be complete and you can start with the last steps:
