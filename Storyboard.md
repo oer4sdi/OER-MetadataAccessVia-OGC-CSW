@@ -1,7 +1,9 @@
 # Using ISO Metadata and OGC Catalog Services to find data on Protected Sites in Germany
 
 
-<img src="https://github.com/oer4sdi/OER-WindFarmExtension/blob/main/img/LGLN.PNG" width="1000">
+<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/DockerJupyterAccess.png" width="1000">
+
+
 
 ## 1. Overview
 
