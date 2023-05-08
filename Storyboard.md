@@ -82,7 +82,7 @@ The second software environment that we need is Docker. Therefore please follow 
 4. open a terminal and guide to your working directory  
 5. use "docker-compose up" to start up the docker containers  
 6. After building and the running is completed your output should look similar to that:  
-![DockerJupyterAccess](https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/tree/main/img/DockerJupyterAccess.png)   
+<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/DockerJupyterAccess.png" width="1000">     
 
 Now go to your browser and access the URL from your command output that starts with http://127.0.0.1:8888/?token=.  
 You will see the UI of the Jupyter Notebook server that is running and can access the notebook later there.     
