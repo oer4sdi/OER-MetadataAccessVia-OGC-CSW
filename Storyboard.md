@@ -93,21 +93,21 @@ You will see the UI of the Jupyter Notebook server that is running and can acces
 ## 4.2 Accessing metadata via geoportals  
 But before we look into accessing metadata via notebooks, let’s start with accessing metadata with the most common approach. We will look at how to access metadata via geoportals. Specifically, we will take up the use case of searching for and finding data on protected sites using a geoportal. Geoportals are online platforms that provide access to spatial data and related services. They typically offer users a variety of search and discovery tools to help them find the data they need.    
 To begin, we will use a geoportal to search for data on protected sites in Lower Saxony. For our purposes, we will use the "Geodatenkatalog", which is the metadatainformationsystem from the "Geodateninfrastruktur Deutschland" (GDI-DE). After navigating to the portal's homepage (https://gdk.gdi-de.org/gdi-de/srv/ger/catalog.search#/home), we have several opportunities to find datasets related to protected sites. We can first start with filtering for one of the topics. Our wanted dataset for protected sites will probably be in the topic "Umwelt"       
-<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/tree/main/img/GDIStart.png" width="1000">   
+<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/GDIStart.png" width="1000">   
 Now we have over 5000 datasets but that's to many so we need to filter more. For example we can use the map on the right side by zooming into our wanted area and than drawing a a rectangle with the drawing tool. We can also use the Filter bar on the left site or searchbar to filter for specific keywords.      
-<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/tree/main/img/GDIUmwelt.png" width="1000">    
+<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/GDIUmwelt.png" width="1000">    
 So our wanted region Lorup is between Papenburg and Cloppenburg in the district of Emsland. Let's try filtering them with the map first.    
-<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/tree/main/img/GDIKarte.png" width="1000">    
+<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/GDIKarte.png" width="1000">    
 There are still to much datasets. You can try to find your wanted dataset by using the other filters too.    
-<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/tree/main/img/GDIFilter.png" width="1000">    
+<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/GDIFilter.png" width="1000">    
 With the filter "Naturschutzgebiete" in the search bar I now can have a look at the results and analyse them.     
-<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/tree/main/img/GDINSGTitel.png" width="1000">    
+<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/GDINSGTitel.png" width="1000">    
 The dataset "Naturschutzgebiete (NSG)", seems to fit quite good for our purpose. There are several positive aspects about searching metadata through geoportals. Once we find a dataset of interest, we can click on its title to view its metadata if you scroll down a bit. The HTML user interface of the geoportal provides a user-friendly layout of the metadata, allowing us to easily understand the dataset's attributes, such as its name, date of creation, and format.   
-<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/tree/main/img/GDINSGMetadaten.png" width="1000">    
+<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/GDINSGMetadaten.png" width="1000">    
 Now you know how to search through a geoportal for metadata. Can you find the dataset with other filters too?   
 
 At the bottom we can additionally view the metadata set in plain XML ("Metadaten herunterladen"), which is useful for machine-to-machine communication. This opens up the large .xml file with all the stored metadata for the dataset.
-<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/tree/main/img/GDINSGMetadatenXML.png" width="1000">      
+<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/GDINSGMetadatenXML.png" width="1000">      
 While XML can be difficult for humans to read, it is still a valuable tool for encoding data. We can learn how to read the content of the XML file, including the meaning of attributes, by referring to name spaces and sources of documentation. We should keep in mind that XML is mainly intended for machine-to-machine communication, such as with QGIS, Python, or other catalogues.  
 Geoportals often rely on Catalog Services, which are dedicated meta-database queries that support the federation of catalogues. Catalog Services allow users to access metadata stored in different catalogues, making it easier to find the data they need. In the context of a geoportal, Catalog Services play a critical role in providing access to spatial data and related services.  
 After accessing and going through the metadata, we can download the dataset, if it looks suitable. Now the dataset could be loaded into a QGIS project for visualisation and analysis. Through our findings, we can see that today's portals have just basic metadata retrieval functionality, and the capabilities of the existing search engines go far beyond. Nonetheless, accessing metadata via geoportals is an essential first step in finding the data needed for spatial analysis and decision-making.  
@@ -127,21 +127,21 @@ The last example approach for accessing metadata through catalogue services, is 
   
 Now you're ready to go. Open QGIS and start a new project.    
 In the menu bar there is one feature called "Web" click on that and navigate to MetaSearch.   
-<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/tree/main/img/QGISMenuBar.png" width="1000">      
+<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/QGISMenuBar.png" width="1000">      
 It should open a new window with the MetaSearch tool. you can navigate to "Dienste" and create a new connection if you click on the button "Neu..."
-<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/tree/main/img/QGISMetaSearchNew.png" width="1000">     
+<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/QGISMetaSearchNew.png" width="1000">     
 There you can type a name for your new connection and the URL of the catalogue service and click "Ok". We want to use the "geodatenkatalog" again so the URL would be https://gdk.gdi-de.org/gdi-de/srv/ger/csw.    
-<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/tree/main/img/QGISMSNewConnection.png" width="1000">     
+<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/QGISMSNewConnection.png" width="1000">     
 Now we can test the connection when we click "Dinestinfo".     
-<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/tree/main/img/QGISGKDienstinfo.png" width="1000">    
+<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/QGISGKDienstinfo.png" width="1000">    
 If you get the Service Metadata too, you're connected to the geodatenkatalog and are ready to start with searching for datasets in "Suche".    
-<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/tree/main/img/QGISGKSuche.png" width="1000">    
+<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/QGISGKSuche.png" width="1000">    
 In the search section you have two options to filter in the datasets. You can search for for keywords and also can add a BBox as a filter. Let's start filtering through keywords. You can also type in more than one keyword. Can you find the dataset which we found in the last excerciese?
-<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/tree/main/img/QGISGKNaturschutzgebieteNS.png" width="1000">    
+<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/QGISGKNaturschutzgebieteNS.png" width="1000">    
 Have you found the dataset? Now you can click on it and a new window should open in which you can see the metadata about the dataset.   
-<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/tree/main/img/QGISGKDataset.png" width="1000">     
+<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/QGISGKDataset.png" width="1000">     
 You also have the option to view the XML file about the metadata in your browser again. There you can see better what the links on the bottom can do. There is also one link to downlaod the dataset you want.      
-<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/tree/main/img/QGISGKDatasetXML.png" width="1000">    
+<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/QGISGKDatasetXML.png" width="1000">    
 
 You have seen three different approaches to access metadata through a catalogue service but there are many more. Now you have a better understanding what catalogue services are good for and why a good metadata description is necessary to find the best suiting dataset for your specific purpose in the masses of available data. Which approach do you find best?    
 
