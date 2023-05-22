@@ -52,7 +52,7 @@ Before we can dive into the excercises we must clarify some terms and explain a 
 ## 3.1 The role of Metadata in SDIs
 
 Metadata plays a critical role in Spatial Data Infrastructures (SDIs), which are complex distributed systems designed to facilitate the discovery, access, and use of spatial data.        
-<alt="SDI Grafik">        
+<img alt="SDI Grafik">        
 Metadata provides essential information about spatial data resources, including their content, quality, and spatial extent, enabling users to find and evaluate data that meets their specific needs. It's like a detailed map that helps users navigate through the vast landscape of spatial data, ensuring they can locate and access the right information for their specific needs with confidence and ease. It forms the basis of an SDI architecture.      
 In this context you maybe already heart of the Publish-Find-Bind paradigm in the lecture, where metadata is also crucial component.        
 
