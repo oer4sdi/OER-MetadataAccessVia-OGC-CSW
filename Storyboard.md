@@ -47,16 +47,18 @@ After browsing through the geoportals and finding your wanted datasets you can t
 # 3. Background
 
 Before we can dive into the excercises we must clarify some terms and explain a bit about the background of metadata. Note that in a 30 minutes tutorial we can't go into every detail and must limit ourselves to specific approaches because the topic Accessing Metadata. Therefore, we concentrate on using ISO Metadata and OGC Catalog Services to find data on Protected Sites specifically in Germany. There are several more approaches, on which we cannot elaborate furhter in the following sections.
-<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/BackgroundGraphic.png" width="1000" alt="background graphic"> 
+<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/BackgroundGraphic.png" width="1000"> 
 
 ## 3.1 The role of Metadata in SDIs
 
-Metadata plays a critical role in Spatial Data Infrastructures (SDIs), which are complex distributed systems designed to facilitate the discovery, access, and use of spatial data.    
-<alt="SDI Grafik">
+Metadata plays a critical role in Spatial Data Infrastructures (SDIs), which are complex distributed systems designed to facilitate the discovery, access, and use of spatial data.        
+<alt="SDI Grafik">        
 Metadata provides essential information about spatial data resources, including their content, quality, and spatial extent, enabling users to find and evaluate data that meets their specific needs. It's like a detailed map that helps users navigate through the vast landscape of spatial data, ensuring they can locate and access the right information for their specific needs with confidence and ease. It forms the basis of an SDI architecture.      
 In this context you maybe already heart of the Publish-Find-Bind paradigm in the lecture, where metadata is also crucial component.        
-<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/Publish-Find-Bind.png" width="1000">    
-This paradigm consists of three components: 
+
+<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/Publish-Find-Bind.png" width="1000">       
+
+This paradigm consists of three components:     
 1. The service provider created a new dataset or service and publishes metadata about it to a catalogue service (the service broker), 
 2. then consumers can find the service by searching through the catalogue. Here it's important to know that different search engines and catalogues may have different capabilities and search algorithms. That can impact the effectiveness and efficiency of data discovery. So therefore, it is important to consider the characteristics and capabilities of search engines and catalogues, when working with them. Later on in the practical excercises we will look more into that.     
 3. After finding the wanted dataset the consumer than can bind the service based on the infromation from the service description     
