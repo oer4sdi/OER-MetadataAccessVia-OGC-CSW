@@ -40,26 +40,48 @@ A local authority in Lower Saxony has hired you to cooperate with a private inve
 * Within at least 800 m of neighbouring houses   
 * Does not intersect with any protected site   
 
-The spatial data analysis plays a really important role for windfarm planning, to locate viable areas for new planning zones. The datasets must be up-to-date to get the most accurate data. To meet these criteria, you need to explore and find the data for example for the topic protected sites. Now you’re searching for datasets on the web for the protected sites in lower saxony. But which one fits best for you? For such purposes SDIs have Catalog Services which are filled with Metadata describing their available datasets. You can access these Catalogue Services via geoportals, like geodatenkatalog.de, and search there for your wanted data. To find your data it’s necessary that the available datasets are described with quality metadata. By filtering through the metadata you can browse the geoportal to get the wanted dataset. To accurately describe data with metadata there are standards that have been developed like the ISO metadata standards.   
+The spatial data analysis plays a really important role for windfarm planning, to locate viable areas for new planning zones. The datasets must be up-to-date to get the most accurate data. To meet these criteria, you need to explore and find the data for example for the topic protected sites. Now you’re searching for datasets on the web for the protected sites in lower saxony. But which one fits best for you?    
+For such purposes SDIs have Catalog Services which are filled with Metadata describing their available datasets. You can access these Catalogue Services via geoportals, like geodatenkatalog.de, and search there for your wanted data. To find your data it’s necessary that the available datasets are described with quality metadata. By filtering through the metadata you can browse the geoportal to get the wanted dataset. To accurately describe data with metadata there are standards that have been developed like the ISO metadata standards.   
 After browsing through the geoportals and finding your wanted datasets you can then download it and load it into a QGIS project to visualise and analyse it. Now let's dive deeper into Metadata and Catalogue Services.
 
 # 3. Background
 
+Before we can dive into the excercises we must clarify some terms and explain a bit about the background of metadata. Note that in a 30 minutes tutorial we can't go into every detail and must limit ourselves to specific approaches because the topic Accessing Metadata. Therefore, we concentrate on using ISO Metadata and OGC Catalog Services to find data on Protected Sites specifically in Germany. There are several more approaches, on which we cannot elaborate furhter in the following sections.
+<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/BackgroundGraphic.png" width="1000" alt="background graphic"> 
+
 ## 3.1 The role of Metadata in SDIs
 
-Metadata plays a critical role in Spatial Data Infrastructures (SDIs), which are complex distributed systems designed to facilitate the discovery, access, and use of spatial data. Metadata provides essential information about spatial data resources, including their content, quality, and spatial extent, enabling users to find and evaluate data that meets their specific needs. Metadata is a crucial component of the Publish-Find-Bind model, which forms the basis of SDI architecture. In this model, metadata is published to a catalogue, which users can search to find data resources that match their criteria. Different search engines and catalogues may have different capabilities and search algorithms, which can impact the effectiveness and efficiency of data discovery. Therefore, it is important to consider the characteristics and capabilities of search engines and catalogues when designing and implementing SDIs. Overall, metadata is a critical element of SDI architecture, enabling efficient and effective data discovery, sharing, and use across distributed systems.
+Metadata plays a critical role in Spatial Data Infrastructures (SDIs), which are complex distributed systems designed to facilitate the discovery, access, and use of spatial data.    
+<alt="SDI Grafik">
+Metadata provides essential information about spatial data resources, including their content, quality, and spatial extent, enabling users to find and evaluate data that meets their specific needs. It's like a detailed map that helps users navigate through the vast landscape of spatial data, ensuring they can locate and access the right information for their specific needs with confidence and ease. It forms the basis of an SDI architecture.      
+In this context you maybe already heart of the Publish-Find-Bind paradigm in the lecture, where metadata is also crucial component.        
+<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/Publish-Find-Bind.png" width="1000">    
+This paradigm consists of three components: 
+1. The service provider created a new dataset or service and publishes metadata about it to a catalogue service (the service broker), 
+2. then consumers can find the service by searching through the catalogue. Here it's important to know that different search engines and catalogues may have different capabilities and search algorithms. That can impact the effectiveness and efficiency of data discovery. So therefore, it is important to consider the characteristics and capabilities of search engines and catalogues, when working with them. Later on in the practical excercises we will look more into that.     
+3. After finding the wanted dataset the consumer than can bind the service based on the infromation from the service description     
+
+Overall, metadata is a critical element of SDI architecture, enabling efficient and effective data discovery, sharing, and use across distributed systems.
 
 ## 3.2 ISO metadata standards and how are they used in the context of INSPIRE
 
-Standardising data models for metadata is essential to ensure that spatial data can be effectively shared and used across different systems and organisations. The International Organization for Standardization (ISO) has developed a series of metadata standards, including ISO 19115, which defines a conceptual data model for describing spatial data and associated metadata. This model provides a standardised framework for describing the content, quality, and spatial extent of spatial data, as well as information on ownership, access, and usage restrictions. To facilitate the implementation of ISO metadata standards, ISO has also developed encoding standards, such as ISO 19139, which provide a standardised syntax and structure for encoding metadata in different formats.   
+So in order to ensure effective sharing and also utilization of spatial data it's crucial to standardise data models for metadata. Therefor, there were many stadards created like the Dublin Core, the ISO 19115 or DCAT.       
+For our purpose today we will take a look at the ISO metadata standards. The International Organization for Standardization (ISO) has developed a series of metadata standards, including ISO 19115, which defines a conceptual data model for describing spatial data and associated metadata. This model provides a standardised framework for describing the content, quality, and spatial extent of spatial data, as well as information on ownership, access, and usage restrictions.     
+<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/OverviewISOMetadata.png" width="1000" title="Jean Brodeur et al (2019): Geographic Information Metadata—An Outlook from the International Standardization Perspective. International Journal of Geo-Information." src="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=18&ved=2ahUKEwib0Yrtk6zmAhXkQ0EAHYbrBjYQFjARegQIAxAC&url=https%3A%2F%2Fwww.mdpi.com%2F2220-9964%2F8%2F6%2F280%2Fpdf&usg=AOvVaw3waCjPazkz9jy-2AKFLy8a">      
+To facilitate the implementation of ISO metadata standards, ISO has also developed encoding standards, such as ISO 19139, which provide a standardised syntax and structure for encoding metadata in different formats.   
 
-The European Union's INSPIRE Directive mandates the use of ISO metadata standards in the context of spatial data infrastructure development, implementation, and maintenance. INSPIRE requires Member States to establish national metadata catalogues that conform to ISO metadata standards and to provide interoperable access to spatial data resources. By standardising metadata, INSPIRE aims to promote the sharing and reuse of spatial data across Europe, thereby facilitating cross-border and cross-sector data interoperability.  
+The ISO standards playing an important role in Europe because of INSPIRE. The European Union's INSPIRE Directive mandates the use of ISO metadata standards in the context of spatial data infrastructure development, implementation, and maintenance. INSPIRE requires Member States to establish national metadata catalogues that conform to ISO metadata standards and to provide interoperable access to spatial data resources. By standardising metadata, INSPIRE aims to promote the sharing and reuse of spatial data across Europe, thereby facilitating cross-border and cross-sector data interoperability. This makes the INSPIRE Catalogue Service and their GeoPortal a large gathering of all the catalogues of the member states.      
+<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/SDICatalogues.png" width="1000">     
 
-In summary, ISO metadata standards play a crucial role in standardising the conceptual data model and encoding standards for metadata, facilitating data interoperability and data sharing. The INSPIRE Directive mandates the use of ISO metadata standards to promote the sharing and reuse of spatial data across Europe, contributing to the development of an efficient and effective European Spatial Data Infrastructure.  
+In summary, ISO metadata standards play a crucial role in standardising the conceptual data model and encoding standards for metadata, facilitating data interoperability and data sharing. The INSPIRE Directive ensures that these standards are used, making it easier to share and use spatial data across Europe.      
 
 ## 3.3 OGC catalog services (CSW)
 
-The Open Geospatial Consortium (OGC) Catalog Services (CSW) is a standard that provides a standardised interface for accessing metadata catalogues in spatial data infrastructures. The OGC develops and maintains standards for geospatial technologies to promote interoperability and facilitate the sharing and use of geospatial data across different systems and organisations. The CSW standard defines a set of operations for querying metadata catalogues, including search, retrieval, and management of metadata records. The CSW standard enables users to search for metadata using keywords, geographic extent, or other search criteria, and to retrieve metadata records in different formats, such as XML or JSON. The CSW standard has been implemented in a range of tools and instances, such as QGIS MetaSearch or ESRI Geoportal Server, which provide software solutions for managing and accessing metadata catalogues. Overall, the OGC CSW standard plays a critical role in enabling efficient and effective access to metadata catalogues in spatial data infrastructures, promoting data interoperability and facilitating the sharing and use of spatial data.   
+If you want to know how to access metadata catalogues the Open Geospatial Consortium (OGC) Catalog Services (CSW) comes in. It's a standard that provides a standardised interface for accessing metadata catalogues in SDIs.      
+The OGC is an organization that creates and maintains standards for geospatial technologies. They want to make it easier for different systems and organizations to share and use geospatial data. The CSW standard defines a set of operations for working with metadata catalogues. These operations include searching for metadata, retrieving metadata records, and managing them.      
+The CSW standard enables users to search for metadata using keywords, geographic extent, or other search criteria, and to retrieve metadata records in different formats, such as XML or JSON. The CSW standard has been implemented in a range of tools and instances, such as QGIS MetaSearch or ESRI Geoportal Server. These tools provide software solutions for managing and accessing metadata catalogues. But we'll take a closer look at how some of them work in Chapter 4.     
+
+Overall, the OGC CSW standard plays a critical role in enabling efficient and effective access to metadata catalogues in spatial data infrastructures, promoting data interoperability and facilitating the sharing and use of spatial data.   
 
 # 4.	Practical examples for accessing and using ISO metadata
 
@@ -148,3 +170,36 @@ You have seen three different approaches to access metadata through a catalogue 
 
 # 5.	Summary and Notes on Related Topics
 
+In this concluding section, we will summarize the activities covered in the tutorial. We will also provide an overview of other approaches and technologies used for organizing metadata in SDIs, including RDF/DCAT and enabling search engines to gather data on existing resources.       
+
+So now you have got a good overview other the topic "Using ISO Metadata and OGC Catalog Services to find data on Protected Sites in Germany" and accessing metadata through through different approaches. As you have probably noticed they are a bit different but the main operations are the same whe searching through a catalogue. But searching a catalogue through a geoportal is probably the best option because it's easy to use and the XML metadata file is nice edited in an HTML interface for human reading. Due to that another big advantage the geoportal have, is that the links where the dataset is stored is also easy to find. That's a bit tricky by the two other approaches.         
+If you have a bit programming experience and want to find a fitting dataset you could also do the searching with the python library OWSLib. They have similar useful operations, but if you then want to download the dataset it will be tricky to get to the download link.     
+The same problem has the third approach through QGIS MetaSearch. There you also better look into the XML file to find the dowload link because in the MetaSearch layout the available links aren't nametagged. In addition the search options from MetasSearch are very limited. Although you can write more then one keyword in the search bar but you can only search through the whole dataset and cannot search more specifically like only the title or the description.      
+Another big disadvantage of the MetaSearch and the OWSLib is the searching for the right link to get access to the catalogue service and using the right parts. There searching for the name of the service with CSW is probably the best option because you get very often the GetCapabilites request in one of the first results. From that you can use the first part of the link until the "?".      
+
+
+But there are several more ways to organise metadata in SDIs and also store metadata for spatial data.     
+Another standard data model for metadata to the ISO 19115 are RDF/DCAT. They work in a different way. Resource Description Framework (RDF) consists of of triples to describe resources:  < subject > < predicate > < object >      
+<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/GraphicRDF.png">    
+On this RDF-Schemas you can create vocabularies like the Data Catalog Vocabulary (DCAT) from W3C. It's designed to facilitate interoperability between data catalogues published on the Web. Therefor, the DCAT re-uses terms from existing voabularies such as Dublin Core, which is another standard similar to the ISO 19115.     
+The European Commission developed a DCAT profile the DCAT-AP, which is a application profile for data portals in europe. To close the gap to the ISO 19115 the European Commission also have developed the GeoDCAT-AP, which is a geospatial extension to theDCAT-AP. the intention behind that is to support the data exchang between INSPIRE metadata catalogues in Europe. 
+
+
+# Wrap Up
+That's it. You completed the tutorial on "Using ISO Metadata and OGC Catalog Services to find data on Protected Sites in Germany".       
+You've learned about the big role that metadata have in SDIs and why standards are crucial for organising metadata in SDIs. In this context you got to know ISO and INSPIRE. You also worked with a catalogue service and accessed it over several ways and have found your wanted dataset. There you could compare the different approaches and get to know the pros and cons. In the end you also get to know some other approaches on the topic organising metadata.
+
+Now you should be able to answer the following questions:      
+* How can we use metadata for discovering datasets and services in an SDI?        
+* What is the role of the ISO and INSPIRE metadata standards?       
+* What is the role of OGC catalog services (CSW)?     
+* How can I access OGC catalog services with QGIS and/or Python Code?     
+* What other approaches are being used to support the discoverability of datasets and services?      
+
+Thank you for your time!       
+
+If you want to dive deeper into the topic of organising metadata in SDIs and using ISO metadata and OGC Catalogue Services to find data on protected site in Germany feel free to take a look in the created Google Doc to the topic. There are some useful links to the specific subtopics.     
+
+# Refrences
+
+[Jean Brodeur et al (2019): Geographic Information Metadata—An Outlook from the International Standardization Perspective. International Journal of Geo-Information](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=18&ved=2ahUKEwib0Yrtk6zmAhXkQ0EAHYbrBjYQFjARegQIAxAC&url=https%3A%2F%2Fwww.mdpi.com%2F2220-9964%2F8%2F6%2F280%2Fpdf&usg=AOvVaw3waCjPazkz9jy-2AKFLy8a)
