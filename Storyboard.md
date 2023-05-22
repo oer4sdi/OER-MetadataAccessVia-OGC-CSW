@@ -47,7 +47,7 @@ After browsing through the geoportals and finding your wanted datasets you can t
 # 3. Background
 
 Before we can dive into the excercises we must clarify some terms and explain a bit about the background of metadata. Note that in a 30 minutes tutorial we can't go into every detail and must limit ourselves to specific approaches because the topic Accessing Metadata. Therefore, we concentrate on using ISO Metadata and OGC Catalog Services to find data on Protected Sites specifically in Germany. There are several more approaches, on which we cannot elaborate furhter in the following sections.
-<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/BackgroundGraphic.png" width="1000"> 
+<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/BackgroundGraphic.png" width="1000" alt="graphic background"> 
 
 ## 3.1 The role of Metadata in SDIs
 
