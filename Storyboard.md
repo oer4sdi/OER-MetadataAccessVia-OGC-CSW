@@ -17,15 +17,15 @@ The tutorial is structured as follows:
   2.2 ISO metadata standards and how are they used in the context of INSPIRE  
   2.3 OGC catalog services (CSW)  
 3. Use case: Finding data on protected sites in the context of windfarm planning   
-4. Practical examples for accessing and using ISO metadata   
-  4.1 Accessing metadata via geoportals  
-  4.2 Accessing metadata via QGIS Metasearch  
-    4.2.1 Installation Guide
-    4.2.2 QGIS MetaSearch
-  4.3 Accessing metadata via Python from a Jupyter Notebook  
-    4.3.1 Installation Guide
-    4.3.2 Jupyter Notebook
-5. Summary and Notes on Related Topics  
+4. Practical examples for accessing and using ISO metadata      
+  4.1 Accessing metadata via geoportals     
+  4.2 Accessing metadata via QGIS Metasearch     
+      4.2.1 Installation Guide     
+      4.2.2 QGIS MetaSearch       
+  4.3 Accessing metadata via Python from a Jupyter Notebook       
+      4.3.1 Installation Guide     
+      4.3.2 Jupyter Notebook       
+5. Summary and Notes on Related Topics    
 
 The tutorial takes about 30 Minutes for reading and viewing the provided materials, downloading the software and for conducting the hands-on exercises and tasks.
 
