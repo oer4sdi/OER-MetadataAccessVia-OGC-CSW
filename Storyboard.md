@@ -39,21 +39,26 @@ The OER4SDI project has been recommended by the Digital University NRW and is fu
 
 # 2. Background
 
-Before we can dive into the excercises we must clarify some terms and explain a bit about the background of metadata. Note that in a 30 minutes tutorial we can't go into every detail and must limit ourselves to specific approaches because the topic Accessing Metadata. Therefore, we concentrate on using ISO Metadata and OGC Catalog Services to find data on Protected Sites specifically in Germany. There are several more approaches, on which we cannot elaborate furhter in the following sections.
+Before we can dive into the excercises we must clarify some terms and explain a bit about the background of metadata. Note that in a 30 minutes tutorial we can't go into every detail and must limit ourselves to specific approaches because the topic Accessing Metadata. Therefore, we concentrate on using ISO Metadata and OGC Catalog Services to find data on Protected Sites specifically in Germany. There are several more approaches, on which we cannot elaborate furhter in the following sections.       
+
 <img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/BackgroundGraphic.png" width="1000" alt="graphic background">      
-*In Work: Fig.1: Background Graphic*     
+*In Work: Fig.1: Background Graphic*      
+      
 
 ## 2.1 The role of Metadata in SDIs
 
 Metadata plays a critical role in Spatial Data Infrastructures (SDIs), which are complex distributed systems designed to facilitate the discovery, access, and use of spatial data.        
+
 <img alt="SDI Grafik">    
 *In Work: Fig.2: Graphic aout Spatial Data Infrastructures*      
+      
 Metadata provides essential information about spatial data resources, including their content, quality, and spatial extent, enabling users to find and evaluate data that meets their specific needs. It's like a detailed map that helps users navigate through the vast landscape of spatial data, ensuring they can locate and access the right information for their specific needs with confidence and ease. It forms the basis of an SDI architecture.       
 In this context you maybe already heart of the Publish-Find-Bind paradigm in the lecture, where metadata is also crucial component.        
 
 <img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/Publish-Find-Bind.png" width="1000">       
-*Fig.3: Publish-Find-Bind Paradigm*      
-
+*Fig.3: Publish-Find-Bind Paradigm*         
+       
+       
 This paradigm consists of three components:     
 1. The service provider created a new dataset or service and publishes metadata about it to a catalogue service (the service broker), 
 2. then consumers can find the service by searching through the catalogue. Here it's important to know that different search engines and catalogues may have different capabilities and search algorithms. That can impact the effectiveness and efficiency of data discovery. So therefore, it is important to consider the characteristics and capabilities of search engines and catalogues, when working with them. Later on in the practical excercises we will look more into that.     
@@ -137,8 +142,7 @@ The dataset "Naturschutzgebiete (NSG)", seems to fit quite good for our purpose.
 
 Now you know how to search through a geoportal for metadata. Can you find the dataset with other filters too?   
 
-At the bottom we can additionally view the metadata set in plain XML ("Metadaten herunterladen"), which is useful for machine-to-machine communication. This opens up the large .xml file with all the stored metadata for the dataset.
-<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/GDINSGMetadatenXML.png" width="1000">      
+At the bottom we can additionally view the metadata set in plain XML ("Metadaten herunterladen"), which is useful for machine-to-machine communication. This opens up the large .xml file with all the stored metadata for the dataset.     
 
 ```xml
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gfm="http://www.isotc211.org/2005/gfm" xmlns:base="http://www.disy.de/preludio2/base" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://schemas.opengis.net/iso/19139/20060504/gmd/gmd.xsd" uuid="EE85FE8F-BD05-4A6D-813B-6ABC4514B18B">
