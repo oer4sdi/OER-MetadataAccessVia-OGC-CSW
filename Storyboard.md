@@ -108,8 +108,9 @@ Let's say a local authority in Lower Saxony has hired you to cooperate with a pr
 * Within at least 800 m of neighbouring houses   
 * Does not intersect with any protected site     
      
-<img src="" width="1000">    
-**In Work Fig.6: Use case scenario**
+<img src="" width="1000">
+
+*In Work Fig.6: Use case scenario*
       
 The spatial data analysis plays a really important role for windfarm planning, to locate viable areas for new planning zones. The datasets should be up-to-date to get the most accurate data. To meet these criteria, you need to explore and find the data for example for the topic protected sites. Now you’re searching for datasets on the web for the protected sites by Lorup. But which one fits best for you?      
 For such purposes SDIs have Catalog Services which are filled with Metadata describing their available datasets. You can access these Catalogue Services via geoportals, like geodatenkatalog.de, and search there for your wanted data. To find your data it’s necessary that the available datasets are described with quality metadata. By filtering through the metadata you can browse the geoportal to get the wanted dataset. To accurately describe data with metadata there are standards that have been developed like the ISO metadata standards.   
