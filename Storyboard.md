@@ -92,6 +92,7 @@ The OGC is an organization that creates and maintains standards for geospatial t
 <img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/SDICatalogues.png">     
 *Fig.5: Structure INSPIRE Catalogues*      
 
+
 The CSW standard enables users to search for metadata using keywords, geographic extent, or other search criteria, and to retrieve metadata records in different formats, such as XML or JSON. But there is a difference between searching in search engines such as Google, Bing or Yahoo and catalogue services. Search engines are designed to crawl and index web pages, enabling users to search for information across the internet. On the other hand, catalogues, specifically metadata catalogues, are dedicated systems for managing and providing access to metadata. These catalogues services are designed to collect, organize, store, and retrieve metadata records which in turn describe various types of resources, such as datasets, services or other digital assets.           
 The CSW standard has been implemented in a range of tools and instances, such as QGIS MetaSearch or ESRI Geoportal Server. These tools provide software solutions for managing and accessing metadata catalogues. But we'll take a closer look at how some of them work in Chapter 4.    
 
