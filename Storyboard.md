@@ -109,6 +109,7 @@ Let's say a local authority in Lower Saxony has hired you to cooperate with a pr
 * Does not intersect with any protected site     
      
 <img src="" width="1000">    
+
 *In Work Fig.6: Use case scenario*     
       
 The spatial data analysis plays a really important role for windfarm planning, to locate viable areas for new planning zones. The datasets should be up-to-date to get the most accurate data. To meet these criteria, you need to explore and find the data for example for the topic protected sites. Now you’re searching for datasets on the web for the protected sites by Lorup. But which one fits best for you?      
