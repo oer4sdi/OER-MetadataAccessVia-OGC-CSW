@@ -120,7 +120,7 @@ After browsing through the geoportals and finding your wanted datasets you can t
 
 After all the reading we can now put our new knowledge into action. Therefor you're getting some practical examples for accessing Catalogue Services through different approaches. As an example catalouge service we will use the "Geodatenkatalog" and search in it for a dataset for our use case. For the searching in the catalogue service we will use three different representation of the catalogue. First we will use the geoportal in the browser of the "geodatenkatalog". The second one wil be the plugin MetaSearch in QGIS which was specifically developed for catalogues. In the final excercise we will access the catalogue through the python library OWSLib in an jupyter notebook.      
 <img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/GrafikEnvironment.png">       
-*Fig.7: Envirnoment used for the upcoming excercises*     
+*Fig.7: Envirnoment used for the upcoming excercises*
 
 For the excercises you will need docker for jupyter notebooks and QGIS. If you haven't downloaded them already no worries there will be an installatin guide for everything before every excercise.            
 
