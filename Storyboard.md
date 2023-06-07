@@ -51,13 +51,15 @@ Before we can dive into the excercises we must clarify some terms and explain a 
 Metadata plays a critical role in Spatial Data Infrastructures (SDIs), which are complex distributed systems designed to facilitate the discovery, access, and use of spatial data.        
         
 <img alt="SDI Grafik">
+
 *In Work: Fig.2: Graphic aout Spatial Data Infrastructures*        
          
          
 Metadata provides essential information about spatial data resources, including their content, quality, and spatial extent, enabling users to find and evaluate data that meets their specific needs. It's like a detailed map that helps users navigate through the vast landscape of spatial data, ensuring they can locate and access the right information for their specific needs with confidence and ease. It forms the basis of an SDI architecture.       
 In this context you maybe already heart of the Publish-Find-Bind paradigm in the lecture, where metadata is also crucial component.        
        
-<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/Publish-Find-Bind.png">       
+<img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/Publish-Find-Bind.png">
+
 *Fig.3: Publish-Find-Bind Paradigm*         
         
         
