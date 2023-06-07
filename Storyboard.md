@@ -76,6 +76,7 @@ So in order to ensure effective sharing and also utilization of spatial data it'
 For our purpose today we will take a look at the ISO metadata standards. The International Organization for Standardization (ISO) has developed a series of metadata standards, including ISO 19115, which defines a conceptual data model for describing spatial data and associated metadata. This model provides a standardised framework for describing the content, quality, and spatial extent of spatial data, as well as information on ownership, access, and usage restrictions.       
 
 <img src="https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/img/GraphicISO19115.png">
+
 *In Work: Fig.4: Overview about ISO 19115 metadata elements*
                     
                     
