@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                 xmlns:gco="http://www.isotc211.org/2005/gco"
+                 xmlns:srv="http://www.isotc211.org/2005/srv"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:gfm="http://www.isotc211.org/2005/gfm"
+                 xmlns:base="http://www.disy.de/preludio2/base"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://schemas.opengis.net/iso/19139/20060504/gmd/gmd.xsd"
+                 uuid="EE85FE8F-BD05-4A6D-813B-6ABC4514B18B">
+  <gmd:fileIdentifier>
+      <gco:CharacterString>EE85FE8F-BD05-4A6D-813B-6ABC4514B18B</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+      <gmd:LanguageCode codeListValue="ger" codeList="http://www.loc.gov/standards/iso639-2/">ger</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+      <gmd:MD_CharacterSetCode codeListValue="utf8"
+                               codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode">utf8</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:parentIdentifier>
+      <gco:CharacterString>1a93089d-5c9e-46f2-89c9-d6e253e90c9d</gco:CharacterString>
+  </gmd:parentIdentifier>
+  <gmd:hierarchyLevel>
+      <gmd:MD_ScopeCode codeListValue="dataset"
+                        codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ScopeCode">dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:hierarchyLevelName>
+      <gco:CharacterString>dataset</gco:CharacterString>
+  </gmd:hierarchyLevelName>
+  <gmd:contact>
+      <gmd:CI_ResponsibleParty uuid="NLWKN–Daten-ServicestelleNLWKN">
+         <gmd:individualName>
+            <gco:CharacterString>NLWKN – Daten-Servicestelle</gco:CharacterString>
+         </gmd:individualName>
+         <gmd:organisationName>
+            <gco:CharacterString>Niedersächsischer Landesbetrieb für Wasserwirtschaft, Küsten- und Naturschutz (NLWKN)</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:positionName>
+            <gco:CharacterString>NLWKN – Daten-Servicestelle</gco:CharacterString>
+         </gmd:positionName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact uuid="76503a28-3b1e-410d-bcd6-37a06b724085">
+               <gmd:address>
+                  <gmd:CI_Address uuid="ec9c8068-073f-461d-9305-23b5691b93a6">
+                     <gmd:electronicMailAddress>
+                        <gco:CharacterString>daten@nlwkn.niedersachsen.de</gco:CharacterString>
+                     </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+               </gmd:address>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeListValue="pointOfContact"
+                             codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode">pointOfContact</gmd:CI_RoleCode>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+      <gco:DateTime>2022-10-21T12:47:26+02:00</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+      <gco:CharacterString>ISO 19115:2003 NOKIS-Profil</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+      <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:spatialRepresentationInfo>
+      <gmd:MD_VectorSpatialRepresentation uuid="6ae09e4b-94fc-4cef-9ce3-fbd5cc45d09c">
+         <gmd:topologyLevel>
+            <gmd:MD_TopologyLevelCode codeListValue="geometryOnly"
+                                      codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_TopologyLevelCode">geometryOnly</gmd:MD_TopologyLevelCode>
+         </gmd:topologyLevel>
+         <gmd:geometricObjects>
+            <gmd:MD_GeometricObjects uuid="3d5ab521-a8a3-411e-b7b5-bcbd8d285ea2">
+               <gmd:geometricObjectType>
+                  <gmd:MD_GeometricObjectTypeCode codeListValue="composite"
+                                                  codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_GeometricObjectTypeCode">composite</gmd:MD_GeometricObjectTypeCode>
+               </gmd:geometricObjectType>
+               <gmd:geometricObjectCount>
+                  <gco:Integer>840</gco:Integer>
+               </gmd:geometricObjectCount>
+            </gmd:MD_GeometricObjects>
+         </gmd:geometricObjects>
+      </gmd:MD_VectorSpatialRepresentation>
+  </gmd:spatialRepresentationInfo>
+  <gmd:referenceSystemInfo>
+      <gmd:MD_ReferenceSystem uuid="4df987b0-b3f3-405c-bb70-7197e905bfee">
+         <gmd:referenceSystemIdentifier>
+            <gmd:RS_Identifier uuid="9893e5af-4b93-47d6-b671-116617628716">
+               <gmd:code>
+                  <gco:CharacterString>4647</gco:CharacterString>
+               </gmd:code>
+               <gmd:codeSpace>
+                  <gco:CharacterString>EPSG</gco:CharacterString>
+               </gmd:codeSpace>
+               <gmd:version>
+                  <gco:CharacterString>8.1(10.1.0)</gco:CharacterString>
+               </gmd:version>
+            </gmd:RS_Identifier>
+         </gmd:referenceSystemIdentifier>
+      </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+      <gmd:MD_DataIdentification uuid="093121e3-f872-4aa2-b9db-40ee82cc1a18">
+         <gmd:citation>
+            <gmd:CI_Citation uuid="60e4561f-7aea-49f3-93cb-1c66ba52f406">
+               <gmd:title>
+                  <gco:CharacterString>Naturschutzgebiete (NSG)</gco:CharacterString>
+               </gmd:title>
+               <gmd:alternateTitle>
+                  <gco:CharacterString>Naturschutzgebiete_DTK25</gco:CharacterString>
+               </gmd:alternateTitle>
+               <gmd:date>
+                  <gmd:CI_Date uuid="192a7d63-8f83-4b0b-8132-7e7f6e487caa">
+                     <gmd:date>
+                        <gco:Date>2009-07-31</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeListValue="creation"
+                                             codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode">creation</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:date>
+                  <gmd:CI_Date uuid="3d7a620a-c965-476b-9f4f-7e5ecf22d686">
+                     <gmd:date>
+                        <gco:Date>2021-12-31</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeListValue="revision"
+                                             codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode">revision</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:identifier>
+                  <gmd:MD_Identifier uuid="cb1b4ff1-bf68-4e5a-aa84-73043f65501f">
+                     <gmd:code>
+                        <gco:CharacterString>https://registry.gdi-de.org/id/de.ni.mu.nlwkn.csw/EE85FE8F-BD05-4A6D-813B-6ABC4514B18B</gco:CharacterString>
+                     </gmd:code>
+                  </gmd:MD_Identifier>
+               </gmd:identifier>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty uuid="NLWKN–Daten-ServicestelleNLWKN">
+                     <gmd:individualName>
+                        <gco:CharacterString>NLWKN – Daten-Servicestelle</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:organisationName>
+                        <gco:CharacterString>Niedersächsischer Landesbetrieb für Wasserwirtschaft, Küsten- und Naturschutz (NLWKN)</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:positionName>
+                        <gco:CharacterString>NLWKN – Daten-Servicestelle</gco:CharacterString>
+                     </gmd:positionName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact uuid="76503a28-3b1e-410d-bcd6-37a06b724085">
+                           <gmd:address>
+                              <gmd:CI_Address uuid="ec9c8068-073f-461d-9305-23b5691b93a6">
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>daten@nlwkn.niedersachsen.de</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeListValue="pointOfContact"
+                                         codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode">pointOfContact</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:presentationForm>
+                  <gmd:CI_PresentationFormCode codeListValue="mapDigital"
+                                               codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_PresentationFormCode">mapDigital</gmd:CI_PresentationFormCode>
+               </gmd:presentationForm>
+            </gmd:CI_Citation>
+         </gmd:citation>
+         <gmd:abstract>
+            <gco:CharacterString>Digitale landesweite Übersichtskarte: Geometrien aller niedersächsischen Naturschutzgebiete (NSG) mit Angaben u. a. zu Name, Kennzeichen, VO-Datum und Datum des Inkrafttretens.Naturschutzgebiete werden gemäß § 16 NAGBNatSchG durch Verordnung ausgewiesen.Diese Daten sind auch im INSPIRE Datenmodell „Annex 1: Schutzgebiete“ erhältlich. Die Bereitstellung erfolgt per Darstellungs- und Downloaddienst, deren URLs in den Transferoptionen angegeben sind.</gco:CharacterString>
+         </gmd:abstract>
+         <gmd:credit>
+            <gco:CharacterString>© 2021, daten@nlwkn.niedersachsen.de</gco:CharacterString>
+         </gmd:credit>
+         <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty uuid="NLWKN–Daten-ServicestelleNLWKN">
+               <gmd:individualName>
+                  <gco:CharacterString>NLWKN – Daten-Servicestelle</gco:CharacterString>
+               </gmd:individualName>
+               <gmd:organisationName>
+                  <gco:CharacterString>Niedersächsischer Landesbetrieb für Wasserwirtschaft, Küsten- und Naturschutz (NLWKN)</gco:CharacterString>
+               </gmd:organisationName>
+               <gmd:positionName>
+                  <gco:CharacterString>NLWKN – Daten-Servicestelle</gco:CharacterString>
+               </gmd:positionName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact uuid="76503a28-3b1e-410d-bcd6-37a06b724085">
+                     <gmd:address>
+                        <gmd:CI_Address uuid="ec9c8068-073f-461d-9305-23b5691b93a6">
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>daten@nlwkn.niedersachsen.de</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeListValue="pointOfContact"
+                                   codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode">pointOfContact</gmd:CI_RoleCode>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:pointOfContact>
+         <gmd:resourceMaintenance>
+            <gmd:MD_MaintenanceInformation uuid="5566e2f8-3f8b-45da-b9af-dcd9203e933a">
+               <gmd:maintenanceAndUpdateFrequency>
+                  <gmd:MD_MaintenanceFrequencyCode codeListValue="quarterly"
+                                                   codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_MaintenanceFrequencyCode">quarterly</gmd:MD_MaintenanceFrequencyCode>
+               </gmd:maintenanceAndUpdateFrequency>
+            </gmd:MD_MaintenanceInformation>
+         </gmd:resourceMaintenance>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords uuid="7c891143-48ae-4b67-b81f-05c41b82dc48">
+               <gmd:keyword>
+                  <gco:CharacterString>Schutzgebiete</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Protected sites</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeListValue="theme"
+                                          codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode">theme</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation uuid="8ff26aa8-0b2c-4d51-979b-dfa16096e43f">
+                     <gmd:title>
+                        <gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date uuid="b3a525b3-5004-4208-a271-6a8072eab6cd">
+                           <gmd:date>
+                              <gco:Date>2008-06-01</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeListValue="publication"
+                                                   codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode">publication</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords uuid="3c4e8b02-be3d-4cba-98d4-4629fc2a6f9b">
+               <gmd:keyword>
+                  <gco:CharacterString>Regional</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeListValue="theme"
+                                          codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode">theme</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation uuid="89744980-2b85-434f-ab39-2291c5b9e726">
+                     <gmd:title>
+                        <gco:CharacterString>Spatial scope</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date uuid="61e2b1c9-333e-4df9-8d4b-f8ab2ed1b7c4">
+                           <gmd:date>
+                              <gco:Date>2019-05-22</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeListValue="publication"
+                                                   codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode">publication</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords uuid="71dc3230-c975-46aa-b706-9359eddc1746">
+               <gmd:keyword>
+                  <gco:CharacterString>INSPIRE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>inspireidentifiziert</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>opendata</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeListValue="theme"
+                                          codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode">theme</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords uuid="997e4eee-1eb7-433c-beb7-5c8d4067a108">
+               <gmd:keyword>
+                  <gco:CharacterString>Naturschutz</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Naturschutzgebiet</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeListValue="theme"
+                                          codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode">theme</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation uuid="8c60cd36-7259-49d3-9c9c-e3f2d495c19c">
+                     <gmd:title>
+                        <gco:CharacterString>Semantischer Netzwerk Service (SNS)</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:alternateTitle>
+                        <gco:CharacterString>Semantischer Netzwerk Service (SNS) des Umweltbundesamts</gco:CharacterString>
+                     </gmd:alternateTitle>
+                     <gmd:date>
+                        <gmd:CI_Date uuid="17ce97ee-1671-48e3-83f3-3a19067d3c36">
+                           <gmd:date>
+                              <gco:Date>2010-05-04</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeListValue="publication"
+                                                   codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode">publication</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                     <gmd:edition>
+                        <gco:CharacterString>3.0.2</gco:CharacterString>
+                     </gmd:edition>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords uuid="af97bbb8-8894-45dd-8564-208c4135ca39">
+               <gmd:keyword>
+                  <gco:CharacterString>Fachbehörde für Naturschutz</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NLWKN</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Niedersächsischer Landesbetrieb für Wasserwirtschaft, Küsten- und Naturschutz</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeListValue="theme"
+                                          codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode">theme</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints uuid="526280e1-bac8-4d40-b27e-f6fb7c92bf1d">
+               <gmd:useLimitation>
+                  <gco:CharacterString>Nutzungsbedingungen: Datenlizenz Deutschland Namensnennung 2.0 (https://www.govdata.de/dl-de/by-2-0). Die Namensnennung lautet: Niedersächsischer Landesbetrieb für Wasserwirtschaft, Küsten- und Naturschutz (NLWKN)</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:accessConstraints>
+                  <gmd:MD_RestrictionCode codeListValue="license"
+                                          codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode">license</gmd:MD_RestrictionCode>
+               </gmd:accessConstraints>
+               <gmd:accessConstraints>
+                  <gmd:MD_RestrictionCode codeListValue="otherRestrictions"
+                                          codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode">otherRestrictions</gmd:MD_RestrictionCode>
+               </gmd:accessConstraints>
+               <gmd:useConstraints>
+                  <gmd:MD_RestrictionCode codeListValue="otherRestrictions"
+                                          codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode">otherRestrictions</gmd:MD_RestrictionCode>
+               </gmd:useConstraints>
+               <gmd:useConstraints>
+                  <gmd:MD_RestrictionCode codeListValue="license"
+                                          codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode">license</gmd:MD_RestrictionCode>
+               </gmd:useConstraints>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>{"id":"dl-by-de/2.0", "name": "Datenlizenz Deutschland Namensnennung 2.0", "url": "https://www.govdata.de/dl-de/by-2-0", "quelle": "Niedersächsischer Landesbetrieb für Wasserwirtschaft, Küsten- und Naturschutz (NLWKN)"}</gco:CharacterString>
+               </gmd:otherConstraints>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>Nutzungsbedingungen: Datenlizenz Deutschland Namensnennung 2.0 (https://www.govdata.de/dl-de/by-2-0). Die Namensnennung lautet: Niedersächsischer Landesbetrieb für Wasserwirtschaft, Küsten- und Naturschutz (NLWKN)</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
+         <gmd:resourceConstraints>
+            <gmd:MD_Constraints uuid="80d6b926-fcbc-4f96-9cd9-6f67ccd499a8">
+               <gmd:useLimitation>
+                  <gco:CharacterString>Geometrien nur auf Grundlage der Digitalen Topografischen Karte 1:25.000 (DTK25) aussagekräftig. Rechtlich verbindlich sind ausnahmslos die Gebietsabgrenzungen und Flächenangaben in den jeweiligen Verordnungen oder Gesetzen der Schutzgebiete</gco:CharacterString>
+               </gmd:useLimitation>
+            </gmd:MD_Constraints>
+         </gmd:resourceConstraints>
+         <gmd:resourceConstraints>
+            <gmd:MD_SecurityConstraints uuid="bac61a88-131d-4734-be5c-4c80a94b15cf">
+               <gmd:classification>
+                  <gmd:MD_ClassificationCode codeListValue="unclassified"
+                                             codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ClassificationCode">unclassified</gmd:MD_ClassificationCode>
+               </gmd:classification>
+            </gmd:MD_SecurityConstraints>
+         </gmd:resourceConstraints>
+         <gmd:spatialRepresentationType>
+            <gmd:MD_SpatialRepresentationTypeCode codeListValue="vector"
+                                                  codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_SpatialRepresentationTypeCode">vector</gmd:MD_SpatialRepresentationTypeCode>
+         </gmd:spatialRepresentationType>
+         <gmd:spatialResolution>
+            <gmd:MD_Resolution>
+               <gmd:equivalentScale>
+                  <gmd:MD_RepresentativeFraction uuid="c7f9f7f4-690a-43cb-85cf-9972316751e0">
+                     <gmd:denominator>
+                        <gco:Integer>25000</gco:Integer>
+                     </gmd:denominator>
+                  </gmd:MD_RepresentativeFraction>
+               </gmd:equivalentScale>
+            </gmd:MD_Resolution>
+         </gmd:spatialResolution>
+         <gmd:language>
+            <gmd:LanguageCode codeListValue="ger" codeList="http://www.loc.gov/standards/iso639-2/">ger</gmd:LanguageCode>
+         </gmd:language>
+         <gmd:characterSet>
+            <gmd:MD_CharacterSetCode codeListValue="utf8"
+                                     codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_CharacterSetCode">utf8</gmd:MD_CharacterSetCode>
+         </gmd:characterSet>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+         <gmd:extent>
+            <gmd:EX_Extent uuid="d2cf9a53-a273-4cc3-9d28-7b2ddf1483e5">
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicBoundingBox uuid="cd5d72b0-28f3-45a8-a113-c3c91dc35dd9">
+                     <gmd:westBoundLongitude>
+                        <gco:Decimal>6.3697560000</gco:Decimal>
+                     </gmd:westBoundLongitude>
+                     <gmd:eastBoundLongitude>
+                        <gco:Decimal>11.4905480000</gco:Decimal>
+                     </gmd:eastBoundLongitude>
+                     <gmd:southBoundLatitude>
+                        <gco:Decimal>51.2800890000</gco:Decimal>
+                     </gmd:southBoundLatitude>
+                     <gmd:northBoundLatitude>
+                        <gco:Decimal>53.9118280000</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
+               </gmd:geographicElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
+         <gmd:extent>
+            <gmd:EX_Extent uuid="38ed7401-e98c-49fc-a103-832f1c1f9e7c"/>
+         </gmd:extent>
+      </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+      <gmd:MD_Distribution uuid="90917775-4dd1-4dac-94b5-6076bd8985e1">
+         <gmd:distributor>
+            <gmd:MD_Distributor uuid="3b67576b-dd6a-4303-9264-ab122f244407">
+               <gmd:distributorContact>
+                  <gmd:CI_ResponsibleParty uuid="NLWKN–Daten-ServicestelleNLWKN">
+                     <gmd:individualName>
+                        <gco:CharacterString>NLWKN – Daten-Servicestelle</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:organisationName>
+                        <gco:CharacterString>Niedersächsischer Landesbetrieb für Wasserwirtschaft, Küsten- und Naturschutz (NLWKN)</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:positionName>
+                        <gco:CharacterString>NLWKN – Daten-Servicestelle</gco:CharacterString>
+                     </gmd:positionName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact uuid="76503a28-3b1e-410d-bcd6-37a06b724085">
+                           <gmd:address>
+                              <gmd:CI_Address uuid="ec9c8068-073f-461d-9305-23b5691b93a6">
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>daten@nlwkn.niedersachsen.de</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeListValue="distributor"
+                                         codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode">distributor</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:distributorContact>
+               <gmd:distributionOrderProcess>
+                  <gmd:MD_StandardOrderProcess uuid="f1a8e76e-a5c3-4185-8fc4-9bc63fdd5ecd">
+                     <gmd:fees>
+                        <gco:CharacterString>Nach Aufwand, sofern kein Standardangebot verhanden.</gco:CharacterString>
+                     </gmd:fees>
+                     <gmd:orderingInstructions>
+                        <gco:CharacterString>Sofern das Online-Angebot nicht ausreichend ist, wenden Sie sich bitte an die Vertriebsstelle.</gco:CharacterString>
+                     </gmd:orderingInstructions>
+                     <gmd:turnaround>
+                        <gco:CharacterString>Zwei Wochen</gco:CharacterString>
+                     </gmd:turnaround>
+                  </gmd:MD_StandardOrderProcess>
+               </gmd:distributionOrderProcess>
+               <gmd:distributorFormat>
+                  <gmd:MD_Format uuid="d3bce6b7-3728-4b58-8624-c66104e7f662">
+                     <gmd:name>
+                        <gco:CharacterString>Feature-Class in File-Geodatabase</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:version>
+                        <gco:CharacterString>ESRI ArcGIS 10.5.1</gco:CharacterString>
+                     </gmd:version>
+                  </gmd:MD_Format>
+               </gmd:distributorFormat>
+               <gmd:distributorFormat>
+                  <gmd:MD_Format uuid="d7e017d9-eb99-43b9-869f-e4099acdea4b">
+                     <gmd:name>
+                        <gco:CharacterString>Shape-File</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:version>
+                        <gco:CharacterString>ESRI ArcGIS 10.5.1</gco:CharacterString>
+                     </gmd:version>
+                  </gmd:MD_Format>
+               </gmd:distributorFormat>
+            </gmd:MD_Distributor>
+         </gmd:distributor>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions uuid="231dbf7f-9f34-47e0-8bfa-57edd2e81f64">
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource uuid="05733efb-a827-475a-89b8-b441e913228f">
+                     <gmd:linkage>
+                        <gmd:URL>https://www.umweltkarten-niedersachsen.de/arcgis/services/Natur_wms/MapServer/WMSServer?VERSION=1.3.0.&amp;SERVICE=WMS&amp;REQUEST=GetCapabilities</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:applicationProfile>
+                        <gco:CharacterString>application/xml</gco:CharacterString>
+                     </gmd:applicationProfile>
+                     <gmd:name>
+                        <gco:CharacterString>Darstellungsdienst "Kartendienst Schutzgebiete NAGBNatSchG"</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>WMS: GetCapabilities</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeListValue="information"
+                                                   codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_OnLineFunctionCode">information</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource uuid="5da9dd48-fe5a-4c21-8c4a-8fa339a23289">
+                     <gmd:linkage>
+                        <gmd:URL>https://www.umweltkarten-niedersachsen.de/Download_OE/Naturschutz/NSG.zip</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:applicationProfile>
+                        <gco:CharacterString>application/x-shapefile</gco:CharacterString>
+                     </gmd:applicationProfile>
+                     <gmd:name>
+                        <gco:CharacterString>Download: Naturschutzgebiete (NSG)</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Datendownload:</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeListValue="download"
+                                                   codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_OnLineFunctionCode">download</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource uuid="a722ab0b-4ab3-4c69-b074-afb2d6fb83cb">
+                     <gmd:linkage>
+                        <gmd:URL>https://www.umweltkarten-niedersachsen.de/inspire/services/SchutzgebieteNI/MapServer/WMSServer/WMSServer?VERSION=1.3.0.&amp;SERVICE=WMS&amp;REQUEST=GetCapabilities</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:applicationProfile>
+                        <gco:CharacterString>application/xml</gco:CharacterString>
+                     </gmd:applicationProfile>
+                     <gmd:name>
+                        <gco:CharacterString>INSPIRE-Kartendienst Schutzgebiete</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>WMS: GetCapabilities</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeListValue="information"
+                                                   codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_OnLineFunctionCode">information</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource uuid="b4d314e3-84e2-4b27-a89c-7dfcc8334772">
+                     <gmd:linkage>
+                        <gmd:URL>https://www.umweltkarten-niedersachsen.de/inspire/rest/services/SchutzgebieteNI/MapServer/exts/InspireView/service?REQUEST=GetCapabilities&amp;SERVICE=WMS</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:applicationProfile>
+                        <gco:CharacterString>application/xml</gco:CharacterString>
+                     </gmd:applicationProfile>
+                     <gmd:name>
+                        <gco:CharacterString>INSPIRE View Service Schutzgebiete</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>InspireViewService: GetCapabilities</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeListValue="information"
+                                                   codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_OnLineFunctionCode">information</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource uuid="8d41f58a-ab6e-48d9-b378-88b0d55744b0">
+                     <gmd:linkage>
+                        <gmd:URL>https://www.umweltkarten-niedersachsen.de/inspire/rest/services/SchutzgebieteNI/MapServer/exts/InspireFeatureDownload/service?REQUEST=GetCapabilities&amp;SERVICE=WFS</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:applicationProfile>
+                        <gco:CharacterString>application/xml</gco:CharacterString>
+                     </gmd:applicationProfile>
+                     <gmd:name>
+                        <gco:CharacterString>INSPIRE Download Service Schutzgebiete</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>WFS: GetCapabilities (2.0.0)</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeListValue="download"
+                                                   codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_OnLineFunctionCode">download</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+      </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality uuid="e5542a8c-370a-4069-b43f-2ff3915ba7e9">
+         <gmd:scope>
+            <gmd:DQ_Scope uuid="b5fc8961-4ef7-4aff-a6fc-c7e1b741179d">
+               <gmd:level>
+                  <gmd:MD_ScopeCode codeListValue="dataset"
+                                    codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ScopeCode">dataset</gmd:MD_ScopeCode>
+               </gmd:level>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:report>
+            <gmd:DQ_DomainConsistency uuid="19e85e17-9640-4457-9e69-2953cc69d8e5">
+               <gmd:result>
+                  <gmd:DQ_ConformanceResult uuid="e8676f09-7423-41f3-80f4-f8c8a8071764">
+                     <gmd:specification>
+                        <gmd:CI_Citation uuid="bca619c1-e35b-49a5-a422-f0bd83f62e78">
+                           <gmd:title>
+                              <gco:CharacterString>VERORDNUNG (EG) Nr. 1089/2010 DER KOMMISSION vom 23. November 2010 zur Durchführung der Richtlinie 2007/2/EG des Europäischen Parlaments und des Rates hinsichtlich der Interoperabilität von Geodatensätzen und -diensten</gco:CharacterString>
+                           </gmd:title>
+                           <gmd:date>
+                              <gmd:CI_Date uuid="9d8828ba-ccf8-42a8-8add-f5ecd48b42e6">
+                                 <gmd:date>
+                                    <gco:Date>2010-12-08</gco:Date>
+                                 </gmd:date>
+                                 <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeListValue="publication"
+                                                         codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode">publication</gmd:CI_DateTypeCode>
+                                 </gmd:dateType>
+                              </gmd:CI_Date>
+                           </gmd:date>
+                        </gmd:CI_Citation>
+                     </gmd:specification>
+                     <gmd:explanation>
+                        <gco:CharacterString>Die Qualität der Daten entspricht den Durchführungsbestimmungen.</gco:CharacterString>
+                     </gmd:explanation>
+                     <gmd:pass>
+                        <gco:Boolean>true</gco:Boolean>
+                     </gmd:pass>
+                  </gmd:DQ_ConformanceResult>
+               </gmd:result>
+            </gmd:DQ_DomainConsistency>
+         </gmd:report>
+         <gmd:report>
+            <gmd:DQ_DomainConsistency uuid="9199c749-f053-435b-bcbd-04344a326ab8">
+               <gmd:result>
+                  <gmd:DQ_ConformanceResult uuid="db799d8d-268d-465b-88c8-c69d050343b6">
+                     <gmd:specification>
+                        <gmd:CI_Citation uuid="a605af25-4584-449a-a541-0a8ff4504e27">
+                           <gmd:title>
+                              <gco:CharacterString>D2.8.I.9 INSPIRE Data Specification on Protected Sites – Guidelines</gco:CharacterString>
+                           </gmd:title>
+                           <gmd:date>
+                              <gmd:CI_Date uuid="e5124672-5994-479e-9c82-605872b57e46">
+                                 <gmd:date>
+                                    <gco:Date>2010-04-26</gco:Date>
+                                 </gmd:date>
+                                 <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeListValue="publication"
+                                                         codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode">publication</gmd:CI_DateTypeCode>
+                                 </gmd:dateType>
+                              </gmd:CI_Date>
+                           </gmd:date>
+                        </gmd:CI_Citation>
+                     </gmd:specification>
+                     <gmd:explanation>
+                        <gco:CharacterString>Die Qualität der Daten entspricht den Datenspezifikationen.</gco:CharacterString>
+                     </gmd:explanation>
+                     <gmd:pass>
+                        <gco:Boolean>true</gco:Boolean>
+                     </gmd:pass>
+                  </gmd:DQ_ConformanceResult>
+               </gmd:result>
+            </gmd:DQ_DomainConsistency>
+         </gmd:report>
+         <gmd:lineage>
+            <gmd:LI_Lineage uuid="36a72587-6451-43a8-8ce8-15d93db3d429">
+               <gmd:statement>
+                  <gco:CharacterString>Zuständige Stellen waren bis 31.12.2004 die ehemaligen Bezirksregierungen, von 2005 bis Ende 2007 in Natura 2000-Gebieten i.d.R. der Niedersächsische Landesbetrieb für Wasserwirtschaft, Küsten- und Naturschutz (NLWKN) und außerhalb von Natura2000-Gebieten die unteren Naturschutzbehörden. Seit Anfang 2008 liegt die Zuständigkeit für die Ausweisung von Naturschutzgebieten generell bei den unteren Naturschutzbehörden (UNB). 
+
+Digitalisierung auf Grundlage der digitalen topografischen Karte 1:25.000 unter Anwendung der Kartenvorlage des Rechtsetzungsaktes.</gco:CharacterString>
+               </gmd:statement>
+            </gmd:LI_Lineage>
+         </gmd:lineage>
+      </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+  <gmd:metadataMaintenance>
+      <gmd:MD_MaintenanceInformation uuid="25e55125-b256-4e83-a631-6f32748f745f">
+         <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeListValue="quarterly"
+                                             codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_MaintenanceFrequencyCode">quarterly</gmd:MD_MaintenanceFrequencyCode>
+         </gmd:maintenanceAndUpdateFrequency>
+      </gmd:MD_MaintenanceInformation>
+  </gmd:metadataMaintenance>
+</gmd:MD_Metadata>
