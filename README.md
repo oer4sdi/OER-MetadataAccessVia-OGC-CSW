@@ -15,8 +15,9 @@ After using this tutorial, you will be able to answer the following questions:
  
 
 ## How to use
-* Use either the PDF document "Storyboard" or the h5p module which can be viewed using LUMI, Wordpress or any LMS with an H5P extension.
+* Use the PDF document "Storyboard_OER-MetadataAccessVia-OGC-CSW"; currently an h5P package is being prepared to complemet the ODF document. The h5p package will be usable with LUMI, Wordpress or any LMS with an H5P extension.
 * The learning material will guide you through practical exercises that require to download and install QGIS, DockerDesktop, Jupyter Server and a Python Notebook
+
 
 ## License
 You are free to use, alter and reproduce the tutorial (H5P content, Storyboard) under the terms of the CC-BY-SA 4.0 license. Any code provided with the tutorial can be used under the terms of the MIT license. Please see the full license terms at https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW. 
