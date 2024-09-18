@@ -23,7 +23,7 @@ Author
 
 ## Abstract
 
-This repository contains all the materials used to create and publish an Open Educational Resource (OER) on working with Copernicus data and openEO. The OER module provides a) some background information on OGC Catalog Services (CSW) and b) a practical exercise on how to access the OGC CSWs in a Python Notebook. 
+This repository contains all the materials used to create and publish an Open Educational Resource (OER) on working with Copernicus data and openEO. The OER module provides a) some background information on OGC Catalog Services (CSW) and b) a practical exercise on how to access the OGC CSWs with different methods. 
 
 ### Content:
 * Chapter 1: Overview
