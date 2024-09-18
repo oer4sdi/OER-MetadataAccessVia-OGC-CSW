@@ -70,7 +70,6 @@ The OER4SDI project has been recommended by the Digital University NRW and is fu
 * SDI
 * Spatial Data Infrastructure
 * Spatial Information Infrastructure
-* Copernicus
 * OGC CSW
 * INSPIRE
 * Docker
