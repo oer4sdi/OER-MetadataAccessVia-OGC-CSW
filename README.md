@@ -1,25 +1,28 @@
 # OER-MetadataAccessVia-OGC-CSW
-This learning material is a technical tutorial on how to access and use metadata in an SDI to find data on Protected Sites that is needed for windfarm planning in Germany.
-After using this tutorial, you will be able to answer the following questions:
+This tutorial will help you understand how metadata is provided and used in SDIs. In particular, we will look at metadata based on ISO standards, as well as interfaces for querying and accessing metadata according to the OGC specification of Catalog Services for the Web (OGC CSW).
 
-* How can we use metadata for discovering datasets and services in an SDI?
-* What is the role of the ISO and INSPIRE metadata standards?
-* What is the role of OGC catalog services (CSW)?
-* How can I access OGC catalog services with QGIS and/or Python Code?
-* What other approaches are being used to support the discoverability of datasets and services?
+After completing this tutorial, you will be able to query and use OGC Catalog services via Python and QGIS.
 
 ## Content structure
-#### 1. Overview  
-#### 2. Background  
-#### 3. Practical examples for using CSW Catalog Services   
-#### 4. Summary and Notes on Related Topics  
+- #### Overview  
+
+- #### Background  
+
+- #### Practical examples for using CSW Catalog Services   
+
+- #### Summary and Notes on Related Topics  
 
 
 
 
 ## How to use
-* The learning material consists of a PDF file that you can download from the [/docs](https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/tree/main/docs) subfolder. As supporting materials, you will find the sources and data of the exercise in the [/src](https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/tree/main/src) and [/data](https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/tree/main/data) subfolders.
-* The learning material will guide you through practical exercises that require to download and install QGIS, DockerDesktop, Jupyter Server and a Python Notebook
+The learning material consists of a PDF file that you can download from the [/docs](https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/tree/main/docs) subfolder. As supporting materials, you will find the sources and data of the exercise in the [/src](https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/tree/main/src) and [/data](https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/tree/main/data) subfolders.
+
+The learning material will guide you through practical exercises that require to download and install QGIS, DockerDesktop, Jupyter Server and a Python Notebook
+
+The tutorial takes about 90 Minutes for reading and viewing the provided materials, downloading the software and for conducting the hands-on exercises and tasks.
+
+This OER is primarily designed to be used by students in Geoinformatics, Geomatics and similar study programs. It is also useful for students of other study programs and for practitioners who want to enhance their understanding of SDI concepts and technologies. Some basic knowledge of web technologies such as HTTP and Web Services is required. However, you will be able to follow and find links to further resources if needed. Your computer should have 8 GB of usable RAM and 2 GB of usable disk space to download and use the software for this tutorial.
 
 
 ## Authors and Licensing
