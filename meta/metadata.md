@@ -23,19 +23,27 @@ Author
 
 ## Abstract
 
-This repository contains all the materials used to create and publish an Open Educational Resource (OER) on working with Copernicus data and openEO. The OER module provides a) some background information on OGC Catalog Services (CSW) and b) a practical exercise on how to access the OGC CSWs with different methods. 
+This tutorial will help you understand how metadata is provided and used in SDIs. In particular, we will look at metadata based on ISO standards, as well as interfaces for querying and accessing metadata according to the OGC specification of Catalog Services for the Web (OGC CSW). After completing this tutorial, you will be able to query and use OGC Catalog services via Python and QGIS. 
 
 ### Content:
-* Chapter 1: Overview
-* Chapter 2: Background on the OGC CSW
-* Chapter 3: Practical exercise on accessing OGC CSWs with different methods
-* Chapter 4: Wrap up and summary
-
-The OER is designed for students and professionals who want to improve their skills in working with Catalog Services. Users should have some basic knowledge of Python and it would not be bad to have some experience with Docker and Jupyter notebooks as well. However, the OER guides you through all these technologies and can also be used to gain some initial practical experience with them. 
+* Overview
+* Background on the OGC CSW
+* Practical exercise on accessing OGC CSWs with different methods
+* Summary and notes on related topics
 
 ### How to use the OER Module
 
 Simply download the [PDF file](/Storyboard_OER-MetadataAccessVia-OGC-CSW.pdf), read and follow the tutorial..
+
+This OER is primarily designed to be used by students in Geoinformatics, Geomatics and similar study programs. It is also useful for students of other study programs and for practitioners who want to enhance their understanding of SDI concepts and technologies.
+
+Users should have some basic knowledge of Python and it would not be bad to have some experience with Docker and Jupyter notebooks as well. However, the OER guides you through all these technologies and can also be used to gain some initial practical experience with them. 
+
+Your computer should have 8 GB of usable RAM and 2 GB of usable disk space to download and use the software for this tutorial.
+
+The tutorial takes about 90 Minutes for reading and viewing the provided materials, downloading the software and for conducting the hands-on exercises and tasks.
+
+
 
 ### Copyright and License Statement
 
