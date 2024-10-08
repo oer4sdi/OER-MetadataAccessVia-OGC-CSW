@@ -30,9 +30,11 @@ This Tutorial has been developed at the Institute for Geoinformatics, University
 
 You are free to use, alter and share the content of the tutorial under the terms of the [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.de) license, unless explicitly stated otherwise for specific parts of the content. 
 
-The authors can be mentioned as follows: OER_WindFarmPlanning (2024), [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.de), Tobias Krumrein, Albert Remke, [uni-muenster.de](http://uni-muenster.de).
+The tutorial can be referenced as follows: “OER-MetadataAccessVia-OGC-CSW”, OER4SDI project / University Münster,[ CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en).
 
-All logos used are generally excluded. Any code provided with the tutorial can be used under the terms of the MIT license. Please see the full license terms:
+All logos used are generally excluded. 
+
+Any code provided with the tutorial can be used under the terms of the MIT license. Please see the full license terms:
 
 https://github.com/oer4sdi/OER-MetadataAccessVia-OGC-CSW/blob/main/LICENSE.md 
 
